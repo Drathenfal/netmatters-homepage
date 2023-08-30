@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"file": "application.css",
+	"sources": [
+		"../scss/application.scss",
+		"../scss/base/_index.scss",
+		"../scss/base/_normalize.scss"
+	],
+	"sourcesContent": [
+		"// Styles Import\r\n\r\n@import //'utilities/index',\r\n        'base/index';\r\n        //'layout/index',\r\n        //'modules/index',\r\n        //'states/index';",
+		"@import 'normalize';",
+		"/* Remove all the styles of the \"User-Agent-Stylesheet\", except for the 'display' property */\r\n*:where(:not(iframe, canvas, img, svg, video):not(svg *)) {\r\n    all: unset;\r\n    display: revert;\r\n  }\r\n  \r\n  /* Preferred box-sizing value */\r\n  *,\r\n  *::before,\r\n  *::after {\r\n    box-sizing: border-box;\r\n  }\r\n  \r\n  /*\r\n    Remove list styles (bullets/numbers)\r\n    in case you use it with normalize.css\r\n  */\r\n  ol, ul {\r\n    list-style: none;\r\n  }\r\n  \r\n  /* For images to not be able to exceed their container */\r\n  img {\r\n    max-width: 100%;\r\n  }\r\n  \r\n  /* Removes spacing between cells in tables */\r\n  table {\r\n    border-collapse: collapse;\r\n  }\r\n  \r\n  /* Revert the 'white-space' property for textarea elements on Safari */\r\n  textarea {\r\n    white-space: revert;\r\n  }"
+	],
+	"names": [],
+	"mappings": "AEAA,6FAA6F;;AAC7F,AAAA,CAAC,AAAA,MAAO,CAAA,IAAK,CAAA,MAAM,EAAE,MAAM,EAAE,GAAG,EAAE,GAAG,EAAE,KAAK,CAAC,IAAK,CAAA,GAAG,CAAC,CAAC,GAAG;EACtD,GAAG,EAAE,KAAK;EACV,OAAO,EAAE,MAAM;CAChB;;AAED,gCAAgC;;AAChC,AAAA,CAAC;AACD,CAAC,AAAA,QAAQ;AACT,CAAC,AAAA,OAAO,CAAC;EACP,UAAU,EAAE,UAAU;CACvB;;AAED;;;IAGE;;AACF,AAAA,EAAE,EAAE,EAAE,CAAC;EACL,UAAU,EAAE,IAAI;CACjB;;AAED,yDAAyD;;AACzD,AAAA,GAAG,CAAC;EACF,SAAS,EAAE,IAAI;CAChB;;AAED,6CAA6C;;AAC7C,AAAA,KAAK,CAAC;EACJ,eAAe,EAAE,QAAQ;CAC1B;;AAED,uEAAuE;;AACvE,AAAA,QAAQ,CAAC;EACP,WAAW,EAAE,MAAM;CACpB"
+}
