@@ -3,14 +3,28 @@
 	"file": "application.css",
 	"sources": [
 		"../scss/application.scss",
+		"../scss/utilities/_index.scss",
+		"../scss/utilities/_config.scss",
+		"../scss/utilities/_mixins.scss",
 		"../scss/base/_index.scss",
-		"../scss/base/_normalize.scss"
+		"../scss/base/_normalize.scss",
+		"../scss/base/_base.scss",
+		"../scss/modules/_index.scss",
+		"../scss/modules/_footer.scss",
+		"../scss/modules/_newslettersu.scss"
 	],
 	"sourcesContent": [
-		"// Styles Import\r\n\r\n@import //'utilities/index',\r\n        'base/index';\r\n        //'layout/index',\r\n        //'modules/index',\r\n        //'states/index';",
-		"@import 'normalize';",
-		"/* Remove all the styles of the \"User-Agent-Stylesheet\", except for the 'display' property */\r\n*:where(:not(iframe, canvas, img, svg, video):not(svg *)) {\r\n    all: unset;\r\n    display: revert;\r\n  }\r\n  \r\n  /* Preferred box-sizing value */\r\n  *,\r\n  *::before,\r\n  *::after {\r\n    box-sizing: border-box;\r\n  }\r\n  \r\n  /*\r\n    Remove list styles (bullets/numbers)\r\n    in case you use it with normalize.css\r\n  */\r\n  ol, ul {\r\n    list-style: none;\r\n  }\r\n  \r\n  /* For images to not be able to exceed their container */\r\n  img {\r\n    max-width: 100%;\r\n  }\r\n  \r\n  /* Removes spacing between cells in tables */\r\n  table {\r\n    border-collapse: collapse;\r\n  }\r\n  \r\n  /* Revert the 'white-space' property for textarea elements on Safari */\r\n  textarea {\r\n    white-space: revert;\r\n  }"
+		"// Styles Import\r\n\r\n@import 'utilities/index',\r\n        'base/index',\r\n        //'layout/index',\r\n        'modules/index';\r\n        //'states/index';",
+		"@import 'config';\r\n@import 'mixins';\r\n",
+		"//Variables\r\n\r\n//background\r\n$lighter-background:#666;\r\n$light-background:#323544;\r\n$dark-background:#212330;\r\n\r\n//Service Colors\r\n$bespoke:#67809f;\r\n$it-support:#4183d7;\r\n$digital-marketing:#2ecc71;\r\n$telecoms-services:#d64541;\r\n$web-design:#926fb1;\r\n$cyber-security:#f62459;\r\n$developer-course:#ce4125;\r\n\r\n//header colors\r\n$support-color:#4183d7;\r\n$contact-color:#999aa2;",
+		"\r\n// Mix Ins\r\n\r\n@mixin footertitles {\r\n    color:white;\r\n    text-transform: uppercase;\r\n    font-size: 1rem;\r\n    margin-bottom: 26px;\r\n}",
+		"@import 'normalize';\r\n@import 'base';",
+		"/* Remove all the styles of the \"User-Agent-Stylesheet\", except for the 'display' property */\r\n*:where(:not(iframe, canvas, img, svg, video):not(svg *)) {\r\n    all: unset;\r\n    display: revert;\r\n  }\r\n  \r\n  /* Preferred box-sizing value */\r\n  *,\r\n  *::before,\r\n  *::after {\r\n    box-sizing: border-box;\r\n  }\r\n  \r\n  /*\r\n    Remove list styles (bullets/numbers)\r\n    in case you use it with normalize.css\r\n  */\r\n  ol, ul {\r\n    list-style: none;\r\n  }\r\n  \r\n  /* For images to not be able to exceed their container */\r\n  img {\r\n    max-width: 100%;\r\n  }\r\n  \r\n  /* Removes spacing between cells in tables */\r\n  table {\r\n    border-collapse: collapse;\r\n  }\r\n  \r\n  /* Revert the 'white-space' property for textarea elements on Safari */\r\n  textarea {\r\n    white-space: revert;\r\n  }",
+		"//generic\r\n\r\nbody {\r\n    background-color: #fff;\r\n    font-family: 'Poppins', sans-serif;\r\n}",
+		"@import 'footer';\r\n@import 'newslettersu';",
+		"\r\n//Footer\r\n\r\nfooter {\r\n    color:white;\r\n    a:hover{\r\n        cursor: pointer;\r\n        text-decoration: underline;\r\n    }\r\n}\r\n\r\n\r\n\r\nh6 {\r\n    text-transform: uppercase;\r\n    font-size: 1rem;\r\n    margin-bottom: 26px;\r\n}\r\n\r\n.footer-main {\r\nbackground-color: $light-background;\r\n}\r\n\r\n.footer-bottom {\r\nbackground-color: $dark-background;\r\n\r\n}",
+		"\r\n//Newsletter sign up\r\n\r\n.newslettersu {\r\n    background-color: $lighter-background;\r\n}"
 	],
 	"names": [],
-	"mappings": "AEAA,6FAA6F;;AAC7F,AAAA,CAAC,AAAA,MAAO,CAAA,IAAK,CAAA,MAAM,EAAE,MAAM,EAAE,GAAG,EAAE,GAAG,EAAE,KAAK,CAAC,IAAK,CAAA,GAAG,CAAC,CAAC,GAAG;EACtD,GAAG,EAAE,KAAK;EACV,OAAO,EAAE,MAAM;CAChB;;AAED,gCAAgC;;AAChC,AAAA,CAAC;AACD,CAAC,AAAA,QAAQ;AACT,CAAC,AAAA,OAAO,CAAC;EACP,UAAU,EAAE,UAAU;CACvB;;AAED;;;IAGE;;AACF,AAAA,EAAE,EAAE,EAAE,CAAC;EACL,UAAU,EAAE,IAAI;CACjB;;AAED,yDAAyD;;AACzD,AAAA,GAAG,CAAC;EACF,SAAS,EAAE,IAAI;CAChB;;AAED,6CAA6C;;AAC7C,AAAA,KAAK,CAAC;EACJ,eAAe,EAAE,QAAQ;CAC1B;;AAED,uEAAuE;;AACvE,AAAA,QAAQ,CAAC;EACP,WAAW,EAAE,MAAM;CACpB"
+	"mappings": "AKAA,6FAA6F;;AAC7F,AAAA,CAAC,AAAA,MAAO,CAAA,IAAK,CAAA,MAAM,EAAE,MAAM,EAAE,GAAG,EAAE,GAAG,EAAE,KAAK,CAAC,IAAK,CAAA,GAAG,CAAC,CAAC,GAAG;EACtD,GAAG,EAAE,KAAK;EACV,OAAO,EAAE,MAAM;CAChB;;AAED,gCAAgC;;AAChC,AAAA,CAAC;AACD,CAAC,AAAA,QAAQ;AACT,CAAC,AAAA,OAAO,CAAC;EACP,UAAU,EAAE,UAAU;CACvB;;AAED;;;IAGE;;AACF,AAAA,EAAE,EAAE,EAAE,CAAC;EACL,UAAU,EAAE,IAAI;CACjB;;AAED,yDAAyD;;AACzD,AAAA,GAAG,CAAC;EACF,SAAS,EAAE,IAAI;CAChB;;AAED,6CAA6C;;AAC7C,AAAA,KAAK,CAAC;EACJ,eAAe,EAAE,QAAQ;CAC1B;;AAED,uEAAuE;;AACvE,AAAA,QAAQ,CAAC;EACP,WAAW,EAAE,MAAM;CACpB;;;AChCH,AAAA,IAAI,CAAC;EACD,gBAAgB,EAAE,IAAI;EACtB,WAAW,EAAE,qBAAqB;CACrC;;;AEFD,AAAA,MAAM,CAAC;EACH,KAAK,EAAC,KAAK;CAKd;;;AAND,AAEI,MAFE,CAEF,CAAC,AAAA,MAAM,CAAA;EACH,MAAM,EAAE,OAAO;EACf,eAAe,EAAE,SAAS;CAC7B;;;AAKL,AAAA,EAAE,CAAC;EACC,cAAc,EAAE,SAAS;EACzB,SAAS,EAAE,IAAI;EACf,aAAa,EAAE,IAAI;CACtB;;;AAED,AAAA,YAAY,CAAC;EACb,gBAAgB,ENhBE,OAAO;CMiBxB;;;AAED,AAAA,cAAc,CAAC;EACf,gBAAgB,ENnBC,OAAO;CMqBvB;;;ACvBD,AAAA,aAAa,CAAC;EACV,gBAAgB,EPDA,IAAI;COEvB"
 }

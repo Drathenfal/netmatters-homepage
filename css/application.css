@@ -40,4 +40,43 @@ textarea {
   white-space: revert;
 }
 
+/* line 3, ../xampp/htdocs/netmatters-homepage/scss/base/_base.scss */
+body {
+  background-color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* line 4, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
+footer {
+  color: white;
+}
+
+/* line 6, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
+footer a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* line 14, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
+h6 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  margin-bottom: 26px;
+}
+
+/* line 20, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
+.footer-main {
+  background-color: #323544;
+}
+
+/* line 24, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
+.footer-bottom {
+  background-color: #212330;
+}
+
+/* line 4, ../xampp/htdocs/netmatters-homepage/scss/modules/_newslettersu.scss */
+.newslettersu {
+  background-color: #666;
+}
+
 /*# sourceMappingURL=application.css.map */

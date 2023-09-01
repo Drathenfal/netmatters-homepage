@@ -1,0 +1,27 @@
+
+//Footer
+
+footer {
+    color:white;
+    a:hover{
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}
+
+
+
+h6 {
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-bottom: 26px;
+}
+
+.footer-main {
+background-color: $light-background;
+}
+
+.footer-bottom {
+background-color: $dark-background;
+
+}
