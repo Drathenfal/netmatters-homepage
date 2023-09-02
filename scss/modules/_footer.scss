@@ -9,7 +9,37 @@ footer {
     }
 }
 
+.fb-logo {
+    @include socialmedia-icons (url("../images/main-netmatters/FBicon.png"));
+}
 
+.fb-logo:hover{
+    background-color: #3b5998;
+}
+
+.in-logo {
+    @include socialmedia-icons (url("../images/main-netmatters/linkinlogo.png"));
+}
+
+.in-logo:hover {
+background-color: #0077b5;
+}
+
+.twitter-logo {
+    @include socialmedia-icons (url("../images/main-netmatters/twittericon.png"));
+}
+
+.twitter-logo:hover {
+    background-color: #00aced;
+    }
+
+.insta-logo {
+    @include socialmedia-icons (url("../images/main-netmatters/instagramlogo.png"));
+}
+
+.insta-logo:hover {
+    background-color: #d93175;
+    }
 
 h6 {
     text-transform: uppercase;
