@@ -4,3 +4,52 @@
 .newslettersu {
     background-color: $lighter-background;
 }
+
+h5 {
+    color: $dark-text;
+    font-size: 2rem;
+    line-height: 1.1;
+}
+
+label {
+    color:$dark-text;
+    line-height:32px;
+}
+
+.form-news {
+    border: 1px solid #e5e5e5;
+    border-radius: 2px;
+    background-color: #fff;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+
+.news-checkbox {
+border:3px solid $dark-text;
+border-radius: 3px;
+padding: 12px;
+cursor: pointer;
+}
+
+.label-check:hover {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: underline; 
+}
+
+.news-subscribe {
+color:#fff;
+height: auto;
+line-height: 35px;
+padding: 5px 15px;
+text-transform: uppercase;
+font-size: 1.063rem;
+border-radius: 3px;
+white-space: normal;
+background-color: $dark-text;
+}
+
+button:hover {
+    cursor: pointer;
+}

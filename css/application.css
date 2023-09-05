@@ -40,16 +40,18 @@ textarea {
   white-space: revert;
 }
 
-/* line 2, ../xampp/htdocs/netmatters-homepage/scss/base/_base.scss */
+/* line 3, ../xampp/htdocs/netmatters-homepage/scss/base/_base.scss */
 * {
   box-sizing: border-box;
 }
 
-/* line 5, ../xampp/htdocs/netmatters-homepage/scss/base/_base.scss */
+/* line 7, ../xampp/htdocs/netmatters-homepage/scss/base/_base.scss */
 body {
   margin: 0;
   background-color: grey;
   font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  letter-spacing: .4px;
 }
 
 /* line 4, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
@@ -64,97 +66,170 @@ footer a:hover {
 }
 
 /* line 12, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
+.netmatters-logo-white {
+  height: 51.250px;
+  width: 250px;
+}
+
+/* line 17, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
 .fb-logo {
   height: 56px;
-  width: 68px;
-  padding: 12 22 16 22;
-  margin: 7px;
+  width: 101px;
+  margin: 10px;
   background-color: #212330;
   background-image: url("../images/main-netmatters/FBicon.png");
   background-repeat: no-repeat;
-  background-size: 12px;
+  background-size: 14px;
   background-position: center;
 }
 
-/* line 16, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
+/* line 21, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
 .fb-logo:hover {
   background-color: #3b5998;
 }
 
-/* line 20, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
+/* line 25, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
 .in-logo {
   height: 56px;
-  width: 68px;
-  padding: 12 22 16 22;
-  margin: 7px;
+  width: 101px;
+  margin: 10px;
   background-color: #212330;
   background-image: url("../images/main-netmatters/linkinlogo.png");
   background-repeat: no-repeat;
-  background-size: 12px;
+  background-size: 22px;
   background-position: center;
 }
 
-/* line 24, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
+/* line 29, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
 .in-logo:hover {
   background-color: #0077b5;
 }
 
-/* line 28, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
+/* line 33, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
 .twitter-logo {
   height: 56px;
-  width: 68px;
-  padding: 12 22 16 22;
-  margin: 7px;
+  width: 101px;
+  margin: 10px;
   background-color: #212330;
   background-image: url("../images/main-netmatters/twittericon.png");
   background-repeat: no-repeat;
-  background-size: 12px;
+  background-size: 24px;
   background-position: center;
 }
 
-/* line 32, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
+/* line 37, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
 .twitter-logo:hover {
   background-color: #00aced;
 }
 
-/* line 36, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
+/* line 41, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
 .insta-logo {
   height: 56px;
-  width: 68px;
-  padding: 12 22 16 22;
-  margin: 7px;
+  width: 101px;
+  margin: 10px;
   background-color: #212330;
   background-image: url("../images/main-netmatters/instagramlogo.png");
   background-repeat: no-repeat;
-  background-size: 12px;
+  background-size: 24px;
   background-position: center;
 }
 
-/* line 40, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
+/* line 45, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
 .insta-logo:hover {
   background-color: #d93175;
 }
 
-/* line 44, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
+/* line 49, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
 h6 {
   text-transform: uppercase;
   font-size: 1rem;
   margin-bottom: 26px;
 }
 
-/* line 50, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
+/* line 55, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
 .footer-main {
   background-color: #323544;
 }
 
-/* line 54, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
+/* line 59, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
+.footer-ul {
+  font-size: .8125rem;
+  line-height: 1.375rem;
+}
+
+/* line 62, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
+.footer-ul li:last-child {
+  padding-bottom: 30px;
+}
+
+/* line 67, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
 .footer-bottom {
   background-color: #212330;
+  font-size: .8125rem;
+  line-height: 1.375rem;
+  padding: 15px 15px;
 }
 
 /* line 4, ../xampp/htdocs/netmatters-homepage/scss/modules/_newslettersu.scss */
 .newslettersu {
-  background-color: #666;
+  background-color: #dddddd;
+}
+
+/* line 8, ../xampp/htdocs/netmatters-homepage/scss/modules/_newslettersu.scss */
+h5 {
+  color: #333645;
+  font-size: 2rem;
+  line-height: 1.1;
+}
+
+/* line 14, ../xampp/htdocs/netmatters-homepage/scss/modules/_newslettersu.scss */
+label {
+  color: #333645;
+  line-height: 32px;
+}
+
+/* line 19, ../xampp/htdocs/netmatters-homepage/scss/modules/_newslettersu.scss */
+.form-news {
+  border: 1px solid #e5e5e5;
+  border-radius: 2px;
+  background-color: #fff;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+/* line 26, ../xampp/htdocs/netmatters-homepage/scss/modules/_newslettersu.scss */
+.news-checkbox {
+  border: 3px solid #333645;
+  border-radius: 3px;
+  padding: 12px;
+  cursor: pointer;
+}
+
+/* line 33, ../xampp/htdocs/netmatters-homepage/scss/modules/_newslettersu.scss */
+.label-check:hover {
+  cursor: pointer;
+}
+
+/* line 37, ../xampp/htdocs/netmatters-homepage/scss/modules/_newslettersu.scss */
+a {
+  text-decoration: underline;
+}
+
+/* line 41, ../xampp/htdocs/netmatters-homepage/scss/modules/_newslettersu.scss */
+.news-subscribe {
+  color: #fff;
+  height: auto;
+  line-height: 35px;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  font-size: 1.063rem;
+  border-radius: 3px;
+  white-space: normal;
+  background-color: #333645;
+}
+
+/* line 53, ../xampp/htdocs/netmatters-homepage/scss/modules/_newslettersu.scss */
+button:hover {
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=application.css.map */

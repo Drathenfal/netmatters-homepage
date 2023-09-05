@@ -3,14 +3,13 @@
 
 
 //social media icons
-@mixin socialmedia-icons ($bimg){
+@mixin socialmedia-icons ($bimg,$bsize){
     height:56px;
-    width:68px;
-    padding: 12 22 16 22;
-    margin: 7px;
+    width:101px;
+    margin: 10px;
     background-color: $dark-background;
     background-image: $bimg;
     background-repeat: no-repeat;
-    background-size: 12px;
+    background-size: $bsize;
     background-position: center;
 }

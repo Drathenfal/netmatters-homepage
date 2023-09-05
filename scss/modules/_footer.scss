@@ -9,8 +9,13 @@ footer {
     }
 }
 
+.netmatters-logo-white {
+height: 51.250px;
+width: 250px;
+}
+
 .fb-logo {
-    @include socialmedia-icons (url("../images/main-netmatters/FBicon.png"));
+    @include socialmedia-icons (url("../images/main-netmatters/FBicon.png"), 14px);
 }
 
 .fb-logo:hover{
@@ -18,7 +23,7 @@ footer {
 }
 
 .in-logo {
-    @include socialmedia-icons (url("../images/main-netmatters/linkinlogo.png"));
+    @include socialmedia-icons (url("../images/main-netmatters/linkinlogo.png"), 22px);
 }
 
 .in-logo:hover {
@@ -26,7 +31,7 @@ background-color: #0077b5;
 }
 
 .twitter-logo {
-    @include socialmedia-icons (url("../images/main-netmatters/twittericon.png"));
+    @include socialmedia-icons (url("../images/main-netmatters/twittericon.png"), 24px);
 }
 
 .twitter-logo:hover {
@@ -34,7 +39,7 @@ background-color: #0077b5;
     }
 
 .insta-logo {
-    @include socialmedia-icons (url("../images/main-netmatters/instagramlogo.png"));
+    @include socialmedia-icons (url("../images/main-netmatters/instagramlogo.png"), 24px);
 }
 
 .insta-logo:hover {
@@ -51,7 +56,17 @@ h6 {
 background-color: $light-background;
 }
 
+.footer-ul {
+   font-size: .8125rem;
+   line-height: 1.375rem;
+   li:last-child {
+    padding-bottom: 30px;
+   }
+}
+
 .footer-bottom {
 background-color: $dark-background;
-
+font-size: .8125rem;
+line-height: 1.375rem;
+padding: 15px 15px;
 }
