@@ -48,10 +48,57 @@ textarea {
 /* line 7, ../xampp/htdocs/netmatters-homepage/scss/base/_base.scss */
 body {
   margin: 0;
-  background-color: grey;
+  background-color: white;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   letter-spacing: .4px;
+}
+
+/* line 3, ../xampp/htdocs/netmatters-homepage/scss/modules/_banner.scss */
+.banner {
+  background-image: url("../images/main-netmatters/netmatters-office.png");
+  filter: brightness(50%);
+  padding: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* line 11, ../xampp/htdocs/netmatters-homepage/scss/modules/_banner.scss */
+.banner p {
+  color: #fff;
+  margin-bottom: 0.375rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  margin: 0 0 10px;
+}
+
+/* line 22, ../xampp/htdocs/netmatters-homepage/scss/modules/_banner.scss */
+h1 {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  margin: 0 0 1.25rem;
+  color: #fff;
+  font-weight: 600;
+}
+
+/* line 30, ../xampp/htdocs/netmatters-homepage/scss/modules/_banner.scss */
+.banner-button {
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 50px;
+  font-size: 1.25rem;
+  border-radius: 3px;
+  height: auto;
+  padding: 5px 20px;
+  background-color: #926fb1;
+}
+
+/* line 39, ../xampp/htdocs/netmatters-homepage/scss/modules/_banner.scss */
+.banner-button:hover {
+  background-color: #7e57a0;
+  cursor: pointer;
 }
 
 /* line 4, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
@@ -210,7 +257,7 @@ label {
 }
 
 /* line 37, ../xampp/htdocs/netmatters-homepage/scss/modules/_newslettersu.scss */
-a {
+.privacy-policy {
   text-decoration: underline;
 }
 
@@ -230,6 +277,16 @@ a {
 /* line 53, ../xampp/htdocs/netmatters-homepage/scss/modules/_newslettersu.scss */
 button:hover {
   cursor: pointer;
+}
+
+/* line 4, ../xampp/htdocs/netmatters-homepage/scss/modules/_partners.scss */
+.partners img {
+  filter: grayscale(1);
+}
+
+/* line 6, ../xampp/htdocs/netmatters-homepage/scss/modules/_partners.scss */
+.partners img:hover {
+  filter: grayscale(0);
 }
 
 /*# sourceMappingURL=application.css.map */
