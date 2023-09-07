@@ -15,6 +15,7 @@
         font-size: 1.25rem;
         line-height: 1.75rem;
         font-weight: 600;
+        text-align: center;
         margin: 0 0 10px;
     }
 }
@@ -33,12 +34,11 @@ h1 {
     line-height: 50px;
     font-size: 1.25rem;
     border-radius: 3px;
-    height: auto;
     padding: 5px 20px;
+    text-align: center;
     background-color: #926fb1;
     &:hover {
         background-color: #7e57a0;
         cursor: pointer;
     }
-//add an arrow here 
 }

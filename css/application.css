@@ -59,6 +59,19 @@ body {
   width: 100%;
   height: 609px;
   display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+}
+
+/* line 13, ../xampp/htdocs/netmatters-homepage/scss/layout/_banner.scss */
+.banner {
+  padding: 3.75rem 0;
+}
+
+/* line 18, ../xampp/htdocs/netmatters-homepage/scss/layout/_banner.scss */
+.banner-button {
+  display: inline-block;
+  margin: 31px 0px 18px;
 }
 
 /* line 3, ../xampp/htdocs/netmatters-homepage/scss/modules/_banner.scss */
@@ -81,10 +94,11 @@ body {
   font-size: 1.25rem;
   line-height: 1.75rem;
   font-weight: 600;
+  text-align: center;
   margin: 0 0 10px;
 }
 
-/* line 22, ../xampp/htdocs/netmatters-homepage/scss/modules/_banner.scss */
+/* line 23, ../xampp/htdocs/netmatters-homepage/scss/modules/_banner.scss */
 h1 {
   font-size: 2.5rem;
   line-height: 3rem;
@@ -93,19 +107,19 @@ h1 {
   font-weight: 600;
 }
 
-/* line 30, ../xampp/htdocs/netmatters-homepage/scss/modules/_banner.scss */
+/* line 31, ../xampp/htdocs/netmatters-homepage/scss/modules/_banner.scss */
 .banner-button {
   color: #fff;
   text-transform: uppercase;
   line-height: 50px;
   font-size: 1.25rem;
   border-radius: 3px;
-  height: auto;
   padding: 5px 20px;
+  text-align: center;
   background-color: #926fb1;
 }
 
-/* line 39, ../xampp/htdocs/netmatters-homepage/scss/modules/_banner.scss */
+/* line 40, ../xampp/htdocs/netmatters-homepage/scss/modules/_banner.scss */
 .banner-button:hover {
   background-color: #7e57a0;
   cursor: pointer;

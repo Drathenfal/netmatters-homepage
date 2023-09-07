@@ -5,4 +5,17 @@
     height:609px;
 
     display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    
+}
+
+.banner {
+padding: 3.75rem 0;
+}
+
+
+.banner-button {
+    display:inline-block;
+    margin: 31px 0px 18px;
 }
