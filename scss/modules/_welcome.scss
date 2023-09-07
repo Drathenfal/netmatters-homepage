@@ -1,0 +1,52 @@
+//Welcome
+
+.container-welcometo {
+    background-color: $light-background;
+    color:#fff;
+    a:hover{
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}
+
+h3 {
+    font-size: 2.25rem;
+    font-weight: $font-weight--bold;
+    line-height: 1.1;
+}
+
+strong {
+    font-weight: $font-weight--bold;
+}
+
+.welcometo-button {
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 50px;
+    font-size: 1.25rem;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin: 50px 0px;
+    text-align: center;
+    background-color: #272936;
+    &:hover {
+        background-color: #121318;
+        cursor: pointer;
+    }
+}
+
+.quote {
+    font-style: italic;
+    font-size: 1.3rem;
+    font-weight: $font-weight--bold;
+}
+
+.quote-author {
+    color: #a3a8ac;
+    font-size: 1.1rem;
+    font-weight:$font-weight--bold;
+}
+
+.quote-company {
+    color: #fff;
+}

@@ -14,7 +14,7 @@
         margin-bottom: 0.375rem;
         font-size: 1.25rem;
         line-height: 1.75rem;
-        font-weight: 600;
+        font-weight: $font-weight--bold;
         text-align: center;
         margin: 0 0 10px;
     }
@@ -25,7 +25,7 @@ h1 {
     line-height: 3rem;
     margin: 0 0 1.25rem;
     color:#fff;
-    font-weight: 600;
+    font-weight: $font-weight--bold;
 }
 
 .banner-button {

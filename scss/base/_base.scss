@@ -8,6 +8,7 @@ body {
     margin: 0;
     background-color: white;
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+    font-weight: $font-weight--light;
+    font-size: 1rem;
     letter-spacing: .4px;
 }
