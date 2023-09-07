@@ -2,6 +2,7 @@
 //Footer
 
 footer {
+    background-color: $light-background;
     color:white;
     a:hover{
         cursor: pointer;
@@ -49,12 +50,8 @@ background-color: #0077b5;
 h6 {
     text-transform: uppercase;
     font-size: 1rem;
-    margin-bottom: 26px;
 }
 
-.footer-main {
-background-color: $light-background;
-}
 
 .footer-ul {
    font-size: .8125rem;

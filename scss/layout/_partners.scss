@@ -1,2 +1,15 @@
 //partners
 
+.container-partners {
+    width: max-content;
+    height: 170px;
+    display:flex;
+    overflow-x: auto;
+    img {
+        margin-right: 50px;
+    }
+}
+
+.partners {
+    margin: 3.5rem;
+}

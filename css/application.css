@@ -75,12 +75,71 @@ body {
 }
 
 /* line 3, ../xampp/htdocs/netmatters-homepage/scss/layout/_footer.scss */
+.container-footer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: column;
+}
+
+/* line 10, ../xampp/htdocs/netmatters-homepage/scss/layout/_footer.scss */
+.netmatters-logo-white {
+  margin: 26px 0px 16px;
+  padding-left: 5vw;
+}
+
+/* line 15, ../xampp/htdocs/netmatters-homepage/scss/layout/_footer.scss */
+.social-media {
+  padding-left: 2vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* line 21, ../xampp/htdocs/netmatters-homepage/scss/layout/_footer.scss */
+.footer-information {
+  padding-left: 5vw;
+}
+
+/* line 25, ../xampp/htdocs/netmatters-homepage/scss/layout/_footer.scss */
+h6 {
+  margin-bottom: 26px;
+}
+
+/* line 29, ../xampp/htdocs/netmatters-homepage/scss/layout/_footer.scss */
+#follow {
+  padding-left: 5vw;
+}
+
+/* line 33, ../xampp/htdocs/netmatters-homepage/scss/layout/_footer.scss */
+#about {
+  margin-top: 26px;
+}
+
+/* line 37, ../xampp/htdocs/netmatters-homepage/scss/layout/_footer.scss */
 .footer-bottom {
   width: 100%;
   height: 82px;
   display: flex;
   flex-flow: column;
   justify-content: space-between;
+}
+
+/* line 3, ../xampp/htdocs/netmatters-homepage/scss/layout/_partners.scss */
+.container-partners {
+  width: max-content;
+  height: 170px;
+  display: flex;
+  overflow-x: auto;
+}
+
+/* line 8, ../xampp/htdocs/netmatters-homepage/scss/layout/_partners.scss */
+.container-partners img {
+  margin-right: 50px;
+}
+
+/* line 13, ../xampp/htdocs/netmatters-homepage/scss/layout/_partners.scss */
+.partners {
+  margin: 3.5rem;
 }
 
 /* line 3, ../xampp/htdocs/netmatters-homepage/scss/modules/_banner.scss */
@@ -136,26 +195,27 @@ h1 {
 
 /* line 4, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
 footer {
+  background-color: #323544;
   color: white;
 }
 
-/* line 6, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
+/* line 7, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
 footer a:hover {
   cursor: pointer;
   text-decoration: underline;
 }
 
-/* line 12, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
+/* line 13, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
 .netmatters-logo-white {
   height: 51.250px;
   width: 250px;
 }
 
-/* line 17, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
+/* line 18, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
 .fb-logo {
   height: 56px;
   width: 101px;
-  margin: 10px;
+  margin: 5px;
   background-color: #212330;
   background-image: url("../images/main-netmatters/FBicon.png");
   background-repeat: no-repeat;
@@ -163,16 +223,16 @@ footer a:hover {
   background-position: center;
 }
 
-/* line 21, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
+/* line 22, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
 .fb-logo:hover {
   background-color: #3b5998;
 }
 
-/* line 25, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
+/* line 26, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
 .in-logo {
   height: 56px;
   width: 101px;
-  margin: 10px;
+  margin: 5px;
   background-color: #212330;
   background-image: url("../images/main-netmatters/linkinlogo.png");
   background-repeat: no-repeat;
@@ -180,16 +240,16 @@ footer a:hover {
   background-position: center;
 }
 
-/* line 29, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
+/* line 30, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
 .in-logo:hover {
   background-color: #0077b5;
 }
 
-/* line 33, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
+/* line 34, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
 .twitter-logo {
   height: 56px;
   width: 101px;
-  margin: 10px;
+  margin: 5px;
   background-color: #212330;
   background-image: url("../images/main-netmatters/twittericon.png");
   background-repeat: no-repeat;
@@ -197,16 +257,16 @@ footer a:hover {
   background-position: center;
 }
 
-/* line 37, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
+/* line 38, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
 .twitter-logo:hover {
   background-color: #00aced;
 }
 
-/* line 41, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
+/* line 42, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
 .insta-logo {
   height: 56px;
   width: 101px;
-  margin: 10px;
+  margin: 5px;
   background-color: #212330;
   background-image: url("../images/main-netmatters/instagramlogo.png");
   background-repeat: no-repeat;
@@ -214,35 +274,29 @@ footer a:hover {
   background-position: center;
 }
 
-/* line 45, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
+/* line 46, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
 .insta-logo:hover {
   background-color: #d93175;
 }
 
-/* line 49, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
+/* line 50, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
 h6 {
   text-transform: uppercase;
   font-size: 1rem;
-  margin-bottom: 26px;
 }
 
-/* line 55, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
-.footer-main {
-  background-color: #323544;
-}
-
-/* line 59, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
+/* line 56, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
 .footer-ul {
   font-size: .8125rem;
   line-height: 1.375rem;
 }
 
-/* line 62, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
+/* line 59, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
 .footer-ul li:last-child {
   padding-bottom: 30px;
 }
 
-/* line 67, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
+/* line 64, ../xampp/htdocs/netmatters-homepage/scss/modules/_footer.scss */
 .footer-bottom {
   background-color: #212330;
   font-size: .8125rem;

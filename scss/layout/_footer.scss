@@ -1,5 +1,39 @@
 //footer layout
 
+.container-footer {
+width: 100%;
+height:auto;
+display: flex;
+flex-flow:column;
+}
+
+.netmatters-logo-white {
+    margin: 26px 0px 16px;
+    padding-left: 5vw;
+}
+
+.social-media {
+    padding-left: 2vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-information{
+    padding-left: 5vw;
+}
+
+h6 {
+    margin-bottom: 26px;
+}
+
+#follow {
+    padding-left: 5vw;
+}
+
+#about {
+    margin-top: 26px;
+}
+
 .footer-bottom {
     width: 100%;
     height: 82px;
