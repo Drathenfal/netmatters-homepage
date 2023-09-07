@@ -54,17 +54,27 @@ body {
   letter-spacing: .4px;
 }
 
+/* line 3, ../xampp/htdocs/netmatters-homepage/scss/layout/_banner.scss */
+.container-banner {
+  width: 100%;
+  height: 609px;
+  display: flex;
+}
+
 /* line 3, ../xampp/htdocs/netmatters-homepage/scss/modules/_banner.scss */
-.banner {
+.container-banner {
   background-image: url("../images/main-netmatters/netmatters-office.png");
-  filter: brightness(50%);
-  padding: 50px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-/* line 11, ../xampp/htdocs/netmatters-homepage/scss/modules/_banner.scss */
+/* line 10, ../xampp/htdocs/netmatters-homepage/scss/modules/_banner.scss */
+.banner {
+  backdrop-filter: brightness(50%);
+}
+
+/* line 12, ../xampp/htdocs/netmatters-homepage/scss/modules/_banner.scss */
 .banner p {
   color: #fff;
   margin-bottom: 0.375rem;
