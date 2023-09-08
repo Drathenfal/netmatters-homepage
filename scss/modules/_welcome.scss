@@ -19,20 +19,18 @@ strong {
     font-weight: $font-weight--bold;
 }
 
-.welcometo-button {
-    color: #fff;
-    text-transform: uppercase;
-    line-height: 50px;
-    font-size: 1.25rem;
-    border-radius: 5px;
-    padding: 10px 30px;
-    margin: 50px 0px;
-    text-align: center;
-    background-color: #272936;
-    &:hover {
-        background-color: #121318;
-        cursor: pointer;
-    }
+.whychooseus-button {
+    @include welcometo-button (20px auto 17px, $defaultbg, $defaultbg-hover);
+}
+
+.ourculture-button {
+    @include welcometo-button (auto auto 50px , $defaultbg, $defaultbg-hover);
+}
+
+.rating {
+    //fix later should be 50px
+    font-size:40px;
+    margin-bottom: 25px;
 }
 
 .quote {
@@ -49,4 +47,12 @@ strong {
 
 .quote-company {
     color: #fff;
+}
+
+.googlereviews-button {
+    @include welcometo-button (20px 8px auto auto, $googlereview, $googlereview-hover);
+}
+
+.trustpilot-button {
+    @include welcometo-button (20px auto auto, $trustpilot, $trustpilot-hover);
 }

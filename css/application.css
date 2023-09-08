@@ -417,41 +417,112 @@ strong {
 }
 
 /* line 22, ../xampp/htdocs/netmatters-homepage/scss/modules/_welcome.scss */
-.welcometo-button {
+.whychooseus-button {
+  display: inline-block;
+  white-space: nowrap;
   color: #fff;
   text-transform: uppercase;
-  line-height: 50px;
-  font-size: 1.25rem;
-  border-radius: 5px;
+  line-height: 35px;
+  font-size: 20px;
+  border-radius: 6px;
   padding: 10px 30px;
-  margin: 50px 0px;
+  margin: 20px auto 17px;
   text-align: center;
   background-color: #272936;
 }
 
-/* line 32, ../xampp/htdocs/netmatters-homepage/scss/modules/_welcome.scss */
-.welcometo-button:hover {
+/* line 30, ../xampp/htdocs/netmatters-homepage/scss/utilities/_mixins.scss */
+.whychooseus-button:hover {
   background-color: #121318;
   cursor: pointer;
 }
 
-/* line 38, ../xampp/htdocs/netmatters-homepage/scss/modules/_welcome.scss */
+/* line 26, ../xampp/htdocs/netmatters-homepage/scss/modules/_welcome.scss */
+.ourculture-button {
+  display: inline-block;
+  white-space: nowrap;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 35px;
+  font-size: 20px;
+  border-radius: 6px;
+  padding: 10px 30px;
+  margin: auto auto 50px;
+  text-align: center;
+  background-color: #272936;
+}
+
+/* line 30, ../xampp/htdocs/netmatters-homepage/scss/utilities/_mixins.scss */
+.ourculture-button:hover {
+  background-color: #121318;
+  cursor: pointer;
+}
+
+/* line 30, ../xampp/htdocs/netmatters-homepage/scss/modules/_welcome.scss */
+.rating {
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+/* line 36, ../xampp/htdocs/netmatters-homepage/scss/modules/_welcome.scss */
 .quote {
   font-style: italic;
   font-size: 1.3rem;
   font-weight: 600;
 }
 
-/* line 44, ../xampp/htdocs/netmatters-homepage/scss/modules/_welcome.scss */
+/* line 42, ../xampp/htdocs/netmatters-homepage/scss/modules/_welcome.scss */
 .quote-author {
   color: #a3a8ac;
   font-size: 1.1rem;
   font-weight: 600;
 }
 
-/* line 50, ../xampp/htdocs/netmatters-homepage/scss/modules/_welcome.scss */
+/* line 48, ../xampp/htdocs/netmatters-homepage/scss/modules/_welcome.scss */
 .quote-company {
   color: #fff;
+}
+
+/* line 52, ../xampp/htdocs/netmatters-homepage/scss/modules/_welcome.scss */
+.googlereviews-button {
+  display: inline-block;
+  white-space: nowrap;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 35px;
+  font-size: 20px;
+  border-radius: 6px;
+  padding: 10px 30px;
+  margin: 20px 8px auto auto;
+  text-align: center;
+  background-color: #4387f6;
+}
+
+/* line 30, ../xampp/htdocs/netmatters-homepage/scss/utilities/_mixins.scss */
+.googlereviews-button:hover {
+  background-color: #166af4;
+  cursor: pointer;
+}
+
+/* line 56, ../xampp/htdocs/netmatters-homepage/scss/modules/_welcome.scss */
+.trustpilot-button {
+  display: inline-block;
+  white-space: nowrap;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 35px;
+  font-size: 20px;
+  border-radius: 6px;
+  padding: 10px 30px;
+  margin: 20px auto auto;
+  text-align: center;
+  background-color: #00b67b;
+}
+
+/* line 30, ../xampp/htdocs/netmatters-homepage/scss/utilities/_mixins.scss */
+.trustpilot-button:hover {
+  background-color: #009b69;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=application.css.map */
