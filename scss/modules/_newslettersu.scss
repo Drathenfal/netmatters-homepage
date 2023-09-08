@@ -14,25 +14,49 @@ h5 {
 label {
     color:$dark-text;
     line-height:32px;
+    font-weight: $font-weight--bold;
+}
+
+.required::after {
+    content:"*";
+    color: #d24d57;
 }
 
 .form-news {
-    border: 1px solid #e5e5e5;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding:5px 15px;
     border-radius: 2px;
     background-color: #fff;
     box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
 }
 
-.news-checkbox {
-border:3px solid $dark-text;
-border-radius: 3px;
-padding: 12px;
-cursor: pointer;
+//checkbox inputs
+
+.checkbox-input {
+    display:none;
+}
+
+.checkbox-box {
+    border-radius: 3px;
+    border: 3px solid #333645;
+    height: 32px;
+    width: 32px;
+    margin-right: 20px;
+}
+
+.checkbox-box::after {
+    content: "\2713";
+    color: #ddd;
+}
+
+.checkbox-input:checked + .checkbox-box {
+background:#333645;
 }
 
 .label-check:hover {
     cursor: pointer;
-}
+    }
 
 .privacy-policy {
     text-decoration: underline;
@@ -48,8 +72,8 @@ font-size: 1.063rem;
 border-radius: 3px;
 white-space: normal;
 background-color: $dark-text;
-}
-
-button:hover {
+    &:hover {
+    background-color: #22242e;
     cursor: pointer;
+}
 }

@@ -1,2 +1,10 @@
 //Clients
 
+.clients {    
+    img {
+        filter: grayscale(1);
+        &:hover {
+            filter: grayscale(0);
+        }
+    }
+}

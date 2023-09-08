@@ -1,2 +1,33 @@
 //newsletter signup
 
+.container-newslettersu {
+    padding: 50px 15px;
+    display: flex;
+    align-items: center;
+}
+
+h5 {
+    padding-bottom: 15px;
+}
+
+.required {
+    padding-bottom: 5px;
+}
+
+.form-wrapper {
+    margin: 15px 0px;
+    display: flex;
+    label {
+        display: flex;
+    }
+}
+
+
+
+.checkbox-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
