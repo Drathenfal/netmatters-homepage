@@ -6,6 +6,19 @@ h2 {
    font-weight: bold;
 }
 
+.oc-content-container {
+   position: relative;
+   top: 0;
+   transition: .5s ease;
+   box-shadow: 0 3px 35px rgba(0, 0, 0, .1);
+
+   &:hover {
+       top: -10px;
+       transition: .5s ease;
+       //background-color: $bespoke;   //need to figure this shit out
+   }
+}
+
 .os-logo {
 background-color: aqua;
 }
@@ -26,6 +39,35 @@ background-color: aqua;
 }
 
 .os-rm-bs {
-@include read-more-button ($bespoke);
+   @include read-more-button ($bespoke);
 }
 
+.os-rm-it {
+   @include read-more-button ($it-support);
+}
+
+.os-rm-dm {
+   @include read-more-button ($digital-marketing);
+}
+
+.os-rm-ts {
+   @include read-more-button ($telecoms-services);
+}
+
+.os-rm-wd {
+   @include read-more-button ($web-design);
+}
+
+.os-rm-cs {
+   @include read-more-button ($cyber-security);
+}
+
+.os-rm-dt {
+   @include read-more-button ($developer-course);
+}
+
+.viewourwork {
+   color: $dark-text;
+   font-weight: $font-weight--bold;
+   font-size: 1.625rem;
+}

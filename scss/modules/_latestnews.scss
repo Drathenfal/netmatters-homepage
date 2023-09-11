@@ -7,9 +7,7 @@ h4 {
     margin-bottom: 28px;
 }
 
-a:hover{
-    cursor: pointer;
-}
+
 
 .container-news-card {
     border: solid #ccc 1px;
@@ -17,13 +15,18 @@ a:hover{
     top: 0;
     transition: .5s ease;
     box-shadow: 0 3px 35px rgba(0, 0, 0, .1);
-
     &:hover {
         top: -10px;
         transition: .5s ease;
+        cursor: pointer;
     }
 }
 
+.card-image {
+    flex-grow: 1;
+    max-width: 100%;
+    width: 100%;
+}
 
 .title-article1 {
     color:$web-design;
