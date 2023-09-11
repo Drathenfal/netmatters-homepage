@@ -11,16 +11,45 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-top:30px;
 }
 
-.container-card {
-    padding: 15px;
+.card-image-container {
+    display: flex;
+    height: 167.625px;
+    width: 290px;
 }
 
-.read-more-article1 {
-    margin: 15px 0px;
+.card-image{
+    flex: 1;
+    }
+
+.container-card-core {
+    padding: 30px;
+}
+
+.container-card-footer {
+    display: inline-flex;
+    flex-direction: row;
+    padding-top: 30px;
 }
 
 .card-logo {
-    flex-wrap: wrap;
-    }
+margin-right: 20px;
+}
+
+.read-more-article1 {
+    margin: 20px 0px;
+}
+
+.read-more-article2 {
+    margin: 20px 0px;
+}
+
+.read-more-article3 {
+    margin: 20px 0px;
+}
+
+.viewall {
+    margin: 70px;
+}

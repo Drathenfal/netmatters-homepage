@@ -7,13 +7,33 @@ h4 {
     margin-bottom: 28px;
 }
 
-.viewall {
-    color: $dark-text;
-    font-weight: $font-weight--bold;
-    font-size: 1.625rem;
+a:hover{
+    cursor: pointer;
 }
 
+.container-news-card {
+    border: solid #ccc 1px;
+    position: relative;
+    top: 0;
+    transition: .5s ease;
+    box-shadow: 0 3px 35px rgba(0, 0, 0, .1);
+
+    &:hover {
+        top: -10px;
+        transition: .5s ease;
+    }
+}
+
+
 .title-article1 {
+    color:$web-design;
+}
+
+.title-article2 {
+    color:$developer-course;
+}
+
+.title-article3 {
     color:$web-design;
 }
 
@@ -27,6 +47,33 @@ h4 {
     @include read-more-button ($web-design);
 }
 
-.card-logo {
-flex-wrap: wrap;
+.read-more-article2 {
+    @include read-more-button ($developer-course);
+}
+
+.read-more-article3 {
+    @include read-more-button ($web-design);
+}
+
+.container-card-footer {
+    border-top: solid #ccc 1px;
+}
+
+.postedby {
+    color:$dark-text;
+    line-height: 1.375rem;
+    font-size: .875rem;
+
+}
+
+.date-posted {
+    color:#666;
+    line-height: 1.375rem;
+    font-size: .875rem;
+}
+
+.viewall {
+    color: $dark-text;
+    font-weight: $font-weight--bold;
+    font-size: 1.625rem;
 }
