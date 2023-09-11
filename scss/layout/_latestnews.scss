@@ -1,0 +1,26 @@
+//Latest News
+
+.container-latestnews {
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.container-news-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.container-card {
+    padding: 15px;
+}
+
+.read-more-article1 {
+    margin: 15px 0px;
+}
+
+.card-logo {
+    flex-wrap: wrap;
+    }

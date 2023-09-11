@@ -1,0 +1,32 @@
+//Latest News
+
+h4 {
+    color: $dark-text;
+    font-weight: $font-weight--bold;
+    font-size: 2.25rem;
+    margin-bottom: 28px;
+}
+
+.viewall {
+    color: $dark-text;
+    font-weight: $font-weight--bold;
+    font-size: 1.625rem;
+}
+
+.title-article1 {
+    color:$web-design;
+}
+
+.para-article {
+    color:#666;
+    line-height: 1.375rem;
+    font-size: .8125rem;
+}
+
+.read-more-article1 {
+    @include read-more-button ($web-design);
+}
+
+.card-logo {
+flex-wrap: wrap;
+}
