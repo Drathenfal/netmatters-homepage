@@ -209,7 +209,7 @@ h5 {
 
 /* line 27, ../xampp/htdocs/netmatters-homepage/scss/layout/_ourservices.scss */
 .viewourwork {
-  margin: 70px;
+  margin: 30px;
 }
 
 /* line 3, ../xampp/htdocs/netmatters-homepage/scss/layout/_partners.scss */
@@ -306,27 +306,42 @@ h3 {
 /* line 3, ../xampp/htdocs/netmatters-homepage/scss/layout/_header.scss */
 .header-container {
   width: 100%;
-  padding: 30px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
 }
 
 /* line 10, ../xampp/htdocs/netmatters-homepage/scss/layout/_header.scss */
+.header-logo {
+  padding: 5px;
+}
+
+/* line 14, ../xampp/htdocs/netmatters-homepage/scss/layout/_header.scss */
+.phone-icon {
+  padding: 5px;
+}
+
+/* line 18, ../xampp/htdocs/netmatters-homepage/scss/layout/_header.scss */
+.Ham-icon {
+  padding: 5px;
+}
+
+/* line 22, ../xampp/htdocs/netmatters-homepage/scss/layout/_header.scss */
 .header-row {
   display: inline-flex;
   justify-content: space-evenly;
   align-items: center;
-  margin-bottom: 15px;
-  flex-shrink: 1;
+  padding: 10px 40px;
+  margin-bottom: 5px;
 }
 
-/* line 18, ../xampp/htdocs/netmatters-homepage/scss/layout/_header.scss */
+/* line 30, ../xampp/htdocs/netmatters-homepage/scss/layout/_header.scss */
 .search-container {
   display: inline-flex;
   justify-content: center;
 }
 
-/* line 21, ../xampp/htdocs/netmatters-homepage/scss/layout/_header.scss */
+/* line 33, ../xampp/htdocs/netmatters-homepage/scss/layout/_header.scss */
 .search-container input {
   width: 100%;
 }
@@ -922,6 +937,11 @@ h2 {
   font-size: 1.625rem;
 }
 
+/* line 211, ../xampp/htdocs/netmatters-homepage/scss/modules/_ourservices.scss */
+.viewourwork:hover {
+  text-decoration: underline;
+}
+
 /* line 4, ../xampp/htdocs/netmatters-homepage/scss/modules/_partners.scss */
 .partners img {
   filter: grayscale(1);
@@ -1188,14 +1208,19 @@ h4 {
   font-size: 1.625rem;
 }
 
+/* line 83, ../xampp/htdocs/netmatters-homepage/scss/modules/_latestnews.scss */
+.viewall:hover {
+  text-decoration: underline;
+}
+
 /* line 3, ../xampp/htdocs/netmatters-homepage/scss/modules/_header.scss */
 .phone-icon {
-  font-size: 1.25rem;
+  font-size: 32px;
 }
 
 /* line 7, ../xampp/htdocs/netmatters-homepage/scss/modules/_header.scss */
 .Ham-icon {
-  font-size: 1.25rem;
+  font-size: 32px;
 }
 
 /* line 11, ../xampp/htdocs/netmatters-homepage/scss/modules/_header.scss */
