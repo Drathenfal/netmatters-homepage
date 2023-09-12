@@ -1,6 +1,6 @@
 //our services
 
-.oc-container {
+.os-container {
     padding: 50px 10px;
     display: flex;
     flex-direction: column;
@@ -8,7 +8,7 @@
 
 }
 
-.oc-content-container{
+.os-content-container{
     display: flex;
     width: 100%;
     height:300px;
@@ -21,7 +21,6 @@
     padding: 30px;
     a:hover {
         cursor: pointer;
-        background-color: $bespoke;
      }
 }
 

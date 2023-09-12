@@ -6,7 +6,9 @@ h2 {
    font-weight: bold;
 }
 
-.oc-content-container {
+//  Hover Effect   Extremely messy way of doing this but it works
+
+#bs-service {
    position: relative;
    top: 0;
    transition: .5s ease;
@@ -15,8 +17,142 @@ h2 {
    &:hover {
        top: -10px;
        transition: .5s ease;
-       //background-color: $bespoke;   //need to figure this shit out
+       background-color: $bespoke;
+       color: white;
+   .os-rm-bs {
+      background-color: white;
+      color: $bespoke;
    }
+   .os-header {
+      color: white;
+   }
+}
+}
+
+#it-service {
+   position: relative;
+   top: 0;
+   transition: .5s ease;
+   box-shadow: 0 3px 35px rgba(0, 0, 0, .1);
+
+   &:hover {
+       top: -10px;
+       transition: .5s ease;
+       background-color: $it-support;
+       color: white;
+   .os-rm-it {
+      background-color: white;
+      color: $it-support;
+   }
+   .os-header {
+      color: white;
+   }
+}
+}
+
+#dm-service {
+   position: relative;
+   top: 0;
+   transition: .5s ease;
+   box-shadow: 0 3px 35px rgba(0, 0, 0, .1);
+
+   &:hover {
+       top: -10px;
+       transition: .5s ease;
+       background-color: $digital-marketing;
+       color: white;
+   .os-rm-dm {
+      background-color: white;
+      color: $digital-marketing;
+   }
+   .os-header {
+      color: white;
+   }
+}
+}
+
+#ts-service {
+   position: relative;
+   top: 0;
+   transition: .5s ease;
+   box-shadow: 0 3px 35px rgba(0, 0, 0, .1);
+
+   &:hover {
+       top: -10px;
+       transition: .5s ease;
+       background-color: $telecoms-services;
+       color: white;
+   .os-rm-ts {
+      background-color: white;
+      color: $telecoms-services;
+   }
+   .os-header {
+      color: white;
+   }
+}
+}
+
+#wd-service {
+   position: relative;
+   top: 0;
+   transition: .5s ease;
+   box-shadow: 0 3px 35px rgba(0, 0, 0, .1);
+
+   &:hover {
+       top: -10px;
+       transition: .5s ease;
+       background-color: $web-design;
+       color: white;
+   .os-rm-wd {
+      background-color: white;
+      color: $web-design;
+   }
+   .os-header {
+      color: white;
+   }
+}
+}
+
+#cs-service {
+   position: relative;
+   top: 0;
+   transition: .5s ease;
+   box-shadow: 0 3px 35px rgba(0, 0, 0, .1);
+
+   &:hover {
+       top: -10px;
+       transition: .5s ease;
+       background-color: $cyber-security;
+       color: white;
+   .os-rm-cs {
+      background-color: white;
+      color: $cyber-security;
+   }
+   .os-header {
+      color: white;
+   }
+}
+}
+
+#dt-service {
+   position: relative;
+   top: 0;
+   transition: .5s ease;
+   box-shadow: 0 3px 35px rgba(0, 0, 0, .1);
+
+   &:hover {
+       top: -10px;
+       transition: .5s ease;
+       background-color: $developer-course;
+       color: white;
+   .os-rm-dt {
+      background-color: white;
+      color: $developer-course;
+   }
+   .os-header {
+      color: white;
+   }
+}
 }
 
 .os-logo {
