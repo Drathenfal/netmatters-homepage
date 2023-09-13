@@ -49,3 +49,35 @@
     white-space: normal;
  }
 
+//media queries
+
+@mixin mq($break) {
+    @if $break == "x-small" {
+        @media (min-width: $break-xsmall) and (max-width: $break-small) {
+            @content;
+    }
+}
+@else if $break == "small" {
+    @media (min-width: $break-small + 1) {
+            @content;
+    }
+} 
+@else if $break == "medium" {
+    @media (min-width: $break-med + 1) {
+            @content;
+    }
+}
+@else if $break == "large" {
+    @media (min-width: $break-large + 1) {
+            @content;
+    }
+}
+@else if $break == "x-large" {
+    @media (min-width: $break-xlarge + 1) {
+            @content;
+    }
+}
+@else {
+    @error "#{$break} isnt a valid media query size!!";
+    }
+}

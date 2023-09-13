@@ -53,15 +53,21 @@ body a:hover {
 
 .container-banner {
   width: 100%;
-  height: 609px;
+  height: 550px;
   display: flex;
   flex-flow: column wrap;
   text-align: center;
 }
 
 .banner {
-  padding: 3.75rem 0px;
+  padding: 0.9rem 0.1rem;
   flex-grow: 1;
+}
+
+@media (min-width: 461px) {
+  .banner {
+    padding: 3rem 0.75rem;
+  }
 }
 
 .banner-button {
@@ -85,6 +91,7 @@ body a:hover {
   padding-left: 2vw;
   display: flex;
   flex-wrap: wrap;
+  width: 320px;
 }
 
 .footer-information {
@@ -141,6 +148,10 @@ h5 {
   flex-shrink: 0;
 }
 
+.news-subscribe {
+  margin-top: 20px;
+}
+
 .container-clients {
   width: max-content;
   height: 170px;
@@ -149,14 +160,13 @@ h5 {
 }
 
 .clients {
-  margin: 3.5rem;
+  margin: 1.5rem;
 }
 
 .os-container {
   padding: 50px 10px;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .os-content-container {
@@ -177,6 +187,7 @@ h5 {
 }
 
 .viewourwork {
+  text-align: center;
   margin: 30px;
 }
 
@@ -188,7 +199,7 @@ h5 {
 }
 
 .partners {
-  margin: 3.5rem;
+  margin: 1.5rem;
 }
 
 .container-welcometo {
@@ -226,9 +237,11 @@ h3 {
 }
 
 .container-card-footer {
+  width: 100%;
   display: inline-flex;
   flex-direction: row;
-  padding-top: 30px;
+  padding: 30px;
+  align-items: center;
 }
 
 .card-logo {
@@ -248,7 +261,9 @@ h3 {
 }
 
 .viewall {
-  margin: 70px;
+  width: 100%;
+  text-align: center;
+  margin: 30px 0px;
 }
 
 .nav-bar {
@@ -684,7 +699,9 @@ h2 {
 }
 
 .os-logo {
-  background-color: aqua;
+  background-color: #67809f;
+  font-size: 2rem;
+  line-height: 62px;
 }
 
 .os-header {
@@ -939,7 +956,7 @@ h4 {
   color: #333645;
   font-weight: 600;
   font-size: 2.25rem;
-  margin-bottom: 28px;
+  margin-top: 25px;
 }
 
 .container-news-card {
@@ -1061,7 +1078,7 @@ h4 {
   border: 2px solid rgba(0, 0, 0, 0.1);
   width: 100%;
   height: 47px;
-  padding: 5px 40px 5px 15px;
+  padding: 5px 5px 5px 15px;
   display: inline-flex;
 }
 
