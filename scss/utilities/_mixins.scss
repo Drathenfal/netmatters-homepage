@@ -58,22 +58,22 @@
     }
 }
 @else if $break == "small" {
-    @media (min-width: $break-small + 1) {
+    @media (min-width: $break-small) {
             @content;
     }
 } 
 @else if $break == "medium" {
-    @media (min-width: $break-med + 1) {
+    @media (min-width: $break-medium) {
             @content;
     }
 }
 @else if $break == "large" {
-    @media (min-width: $break-large + 1) {
+    @media (min-width: $break-large) {
             @content;
     }
 }
 @else if $break == "x-large" {
-    @media (min-width: $break-xlarge + 1) {
+    @media (min-width: $break-xlarge) {
             @content;
     }
 }

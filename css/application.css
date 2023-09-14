@@ -64,9 +64,15 @@ body a:hover {
   flex-grow: 1;
 }
 
-@media (min-width: 461px) {
+@media (min-width: 460px) {
   .banner {
     padding: 3rem 0.75rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .banner {
+    padding: 8rem 2rem;
   }
 }
 
@@ -80,30 +86,52 @@ body a:hover {
   height: auto;
   display: flex;
   flex-flow: column;
+  padding: 0 30px;
 }
 
-.netmatters-logo-white {
-  margin: 26px 0px 16px;
-  padding-left: 5vw;
+.container-socialincicons {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: 26px 0px 0px;
+}
+
+#follow {
+  margin-top: 20px;
 }
 
 .social-media {
-  padding-left: 2vw;
   display: flex;
   flex-wrap: wrap;
-  width: 320px;
+  width: 280px;
 }
 
-.footer-information {
-  padding-left: 5vw;
+@media (min-width: 480px) {
+  .social-media {
+    width: 450px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-about {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-about-individual {
+    width: 50%;
+    padding-right: 15px;
+  }
 }
 
 h6 {
   margin-bottom: 26px;
-}
-
-#follow {
-  padding-left: 5vw;
 }
 
 #about {
@@ -112,10 +140,16 @@ h6 {
 
 .footer-bottom {
   width: 100%;
-  height: 82px;
   display: flex;
-  flex-flow: column;
+  flex-direction: column;
   justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+  .footer-bottom {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
 }
 
 .container-newslettersu {
@@ -359,11 +393,6 @@ footer {
 footer a:hover {
   cursor: pointer;
   text-decoration: underline;
-}
-
-.netmatters-logo-white {
-  height: 51.250px;
-  width: 250px;
 }
 
 .fb-logo {
