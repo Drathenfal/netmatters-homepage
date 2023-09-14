@@ -21,7 +21,7 @@ strong {
 }
 
 .whychooseus-button {
-    @include welcometo-button (20px auto 17px, $defaultbg, $defaultbg-hover);
+    @include welcometo-button (20px 8px 17px auto, $defaultbg, $defaultbg-hover);
 }
 
 .ourculture-button {
