@@ -24,3 +24,30 @@
     cursor: pointer;
    }
 }
+
+.search-bar2 {
+    display: inline-flex;
+    outline: 1px solid hsla(0,0%,100%,.2);
+    border: 2px solid rgba(0,0,0,.1);
+    width: 100%;
+    height: 58px;
+    padding: 0px 0px 0px 15px;
+
+}
+
+.search-button2 {
+    padding: 7px 20px;
+    height: 56px;
+    font-size: 1.063rem;
+    border-radius: 0 3px 3px 0;
+    border: none;
+    background-color: #999aa2;
+    color: #fff;
+ }
+
+ .search-button2{
+    &:hover {
+        background-color: #7e808a;
+        cursor: pointer;
+       }
+ }
