@@ -60,7 +60,6 @@ margin-right: 20px;
 margin-right: 20px;
 @media (max-width: 768px) {
     display: none;
-    
 }
 }
 
@@ -73,6 +72,10 @@ margin-right: 20px;
 #operations-support {
     @include mq(medium) {
         display: none;
+    }
+    @include mq(xlarge) {
+       display: flex;
+       align-items: center;
     }
 }
 

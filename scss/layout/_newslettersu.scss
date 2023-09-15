@@ -1,9 +1,12 @@
 //newsletter signup
 
 .container-newslettersu {
-    padding: 50px 15px;
+    padding: 15px 15px;
     display: flex;
     align-items: center;
+    @include mq(medium) {
+        padding: 15px 30px;
+    }
 }
 
 h5 {
@@ -31,4 +34,23 @@ h5 {
 
 .news-subscribe {
 margin-top: 20px;
+}
+
+.input-wrapper-sidebyside {
+    display: flex;
+    flex-direction: column;
+@include mq(large){
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    @include mq(large){
+    width: 50%;
+    margin-right: 30px;
+}
 }

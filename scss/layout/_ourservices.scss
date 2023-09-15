@@ -28,6 +28,9 @@
 
 .viewourwork {
     text-align: center;
+       @media (max-width: 768px) {
+        margin-top: 30px;
+    }
 }
 
 #viewourwork1 {
@@ -58,32 +61,56 @@
     justify-content: space-around;
 }
 
-// #bs-service{}
+#bs-service{
+    @include mq(large) {
+        width: 30%;
+    }
+}
 
-// #it-service{}
+#it-service{
+    @include mq(large) {
+        width: 30%;
+    }
+}
 
-// #dm-service{}
+#dm-service{
+    @include mq(large) {
+        width: 30%;
+    }
+}
 
 #ts-service{
     @include mq(medium) {
-        width: 45%;
+        width: 47%;
+    }
+    @include mq(xlarge) {
+        width: 23%;
     }
 }
 
 #wd-service{
     @include mq(medium) {
-        width: 45%;
+        width: 47%;
+    }
+    @include mq(xlarge) {
+        width: 23%;
     }
 }
 
 #cs-service{
     @include mq(medium) {
-        width: 45%;
+        width: 47%;
+    }
+    @include mq(xlarge) {
+        width: 23%;
     }
 }
 
 #dt-service{
     @include mq(medium) {
-        width: 45%;
+        width: 47%;
+    }
+    @include mq(xlarge) {
+        width: 23%;
     }
 }

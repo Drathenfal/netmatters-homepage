@@ -42,8 +42,11 @@ padding: 0 30px;
 
 .container-about-individual{
     @include mq(medium) {
-    width: 50%;
-    padding-right: 15px;
+    width: 45%;
+    margin-right: 15px;
+    }
+    @include mq(large) {
+        width: 20%;
     }
 }
 
@@ -65,5 +68,11 @@ h6 {
     @include mq(medium) {
         flex-direction: row;
         justify-content: flex-start;
+    }
+}
+
+.hidden-hyphen {
+    @media (max-width: 768px) {
+        display: none;
     }
 }

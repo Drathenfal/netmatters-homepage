@@ -5,7 +5,10 @@
     height: 550px;
     display: flex;
     flex-flow: column wrap;
-    text-align: center;  
+    text-align: center; 
+    @include mq(large){
+      text-align: left;
+    } 
 }
 
 .banner {
@@ -17,6 +20,11 @@
     @include mq(medium){
         padding: 8rem 2rem;
     }
+    @include mq(large){
+        padding: 5rem 1rem 0.8rem;
+        width: 80%;
+} 
+
 }
 
 

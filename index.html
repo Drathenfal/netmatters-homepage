@@ -37,15 +37,59 @@
 
 <!------------------------NAV-------------------------------------NAV------------------------------NAV-------------------------------------NAV-----------------------NAV------------------------------------>
 <nav class="nav-bar">
-    <div>
-<ul>
-    <li><a href="#">Software</a></li>
-    <li><a href="#">Support</a></li>
+    <div class="container-nav-bar">
+    
+<ul class="nav-bar-main">
+    <li class="bespoke-nav"><a href="#">
+        <span><i class="fa-solid fa-laptop" style="color: #67809f;"></i></span>
+        <small>Bespoke</small>
+        Software
+    </a>
+    </li>
+
+    <div class="dropdown">
+    <ul class="dropdown-content">
+        <li class="dropdown-content"><a href="#"><i class="fa-solid fa-gears" style="color: #ffffff;"></i>Bespoke CRM</a></li>
+        <li><a href="#"><i class="fa-solid fa-gears" style="color: #ffffff;"></i>Bespoke CRM</a></li>
+        <li><a href="#"><i class="fa-solid fa-gears" style="color: #ffffff;"></i>Bespoke CRM</a></li>
+        <li><a href="#"><i class="fa-solid fa-gears" style="color: #ffffff;"></i>Bespoke CRM</a></li>
+        <li><a href="#"><i class="fa-solid fa-gears" style="color: #ffffff;"></i>Bespoke CRM</a></li>
+        <li><a href="#"><i class="fa-solid fa-gears" style="color: #ffffff;"></i>Bespoke CRM</a></li>
+        <li><a href="#"><i class="fa-solid fa-gears" style="color: #ffffff;"></i>Bespoke CRM</a></li>
+        <li><a href="#"><i class="fa-solid fa-gears" style="color: #ffffff;"></i>Bespoke CRM</a></li>
+        <li><a href="#"><i class="fa-solid fa-gears" style="color: #ffffff;"></i>Bespoke CRM</a></li>
+        <li><a href="#"><i class="fa-solid fa-gears" style="color: #ffffff;"></i>Bespoke CRM</a></li>
+        <li><a href="#"><i class="fa-solid fa-gears" style="color: #ffffff;"></i>Bespoke CRM</a></li>
+        <li><a href="#"><i class="fa-solid fa-gears" style="color: #ffffff;"></i>Bespoke CRM</a></li>
+    </ul>
+</div>
+
+
+<li class="it-dropdown"><a href="#">
+    <span><i class="fa-solid fa-laptop" style="color: #67809f;"></i></span>
+    <small>it</small>
+    Support
+</a>
+</li>
+
+<!-- <div>
+<ul class="dropdown">
+        <li><a href="#"><i class="fa-solid fa-gears" style="color: #ffffff;"></i>Bespoke CRM</a></li>
+        <li><a href="#"><i class="fa-solid fa-gears" style="color: #ffffff;"></i>Bespoke CRM</a></li>
+        <li><a href="#"><i class="fa-solid fa-gears" style="color: #ffffff;"></i>Bespoke CRM</a></li>
+        <li><a href="#"><i class="fa-solid fa-gears" style="color: #ffffff;"></i>Bespoke CRM</a></li>
+    </ul>
+</div>
+
+
+
+
+
     <li><a href="#">Marketing</a></li>
     <li><a href="#">Services</a></li>
     <li><a href="#">Design</a></li>
     <li><a href="#">Security</a></li>
-    <li><a href="#">Course</a></li>
+    <li><a href="#">Course</a></li> -->
 </ul>
 </div>
 </nav>
@@ -154,6 +198,7 @@
 <br>
 <!----------------------WELCOME TO------------------------------WELCOME TO-------------------------WELCOME TO-------------------------------WELCOME TO---------------------WELCOME TO------------------------>
 <section class="container-welcometo">
+    <div class="welcome-content">
 <div class="welcometo">
     <h3>Welcome To Netmatters</h3>
     <strong>Netmatters is a leading <a href="#">Bespoke Software</a>, <a href="#">IT Support</a>, and <a href="#"></a>Digital Marketing company based in the East of England with offices in 
@@ -165,7 +210,9 @@
     <p>We pride ourselves on being an ethical business and have a unique business offering and cost model that ensures you get the most from our relationship in an upfront manner.</p>
     <a class="whychooseus-button" href="#" target="_blank">Why Choose Us? <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i></a>
     <a class="ourculture-button" href="#" target="_blank">Our Culture <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i></a>
+</div>
 
+<div class="clientsthink">
     <h3>What Our Clients Think</h3>
     <div>
         <p class="rating">
@@ -182,6 +229,7 @@
     <p class="quote-author">Eleanor Bishop, Head of Marketing - <a class="quote-company" href="#">Ashcroft Partnership LLP</a></p>
     <a class="googlereviews-button" href="#" target="_blank">Google Reviews <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i></a>
     <a class="trustpilot-button" href="#" target="_blank">Trustpilot Reviews <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i></a>
+</div>
 </div>
 </section>
 <!---------------------LATEST NEWS------------------------------LATEST NEWS-------------------------LATEST NEWS-------------------------LATEST NEWS--------------------LATEST NEWS-------------------------->
@@ -282,10 +330,18 @@
 
 <form>
     <h5>Email Newsletter Sign-up</h5>
+
+<div class="input-wrapper-sidebyside">
+    <div class="input-wrapper">
     <label class="required">Your Name </label>
     <input class="form-news" type="text">
+</div>
+    <div class="input-wrapper">
     <label class="required">Your Email </label>
     <input class="form-news" type="email">
+    </div>
+</div>
+
 
     <div class="form-wrapper">
         <label class="label-check" for="mycheck">
@@ -371,6 +427,7 @@
 <div class="footer-bottom">
 <span>&copy; Copyright Netmatters 2023.</span>
 <span>All rights reserved.</span>
+<p class="hidden-hyphen">&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;</p>
 <span><a href="#">Sitemap</a></span>
 </div>
 </footer>

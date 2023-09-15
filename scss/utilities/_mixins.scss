@@ -52,7 +52,7 @@
 //media queries
 
 @mixin mq($break) {
-    @if $break == "x-small" {
+    @if $break == "xsmall" {
         @media (min-width: $break-xsmall) and (max-width: $break-small) {
             @content;
     }
@@ -72,7 +72,7 @@
             @content;
     }
 }
-@else if $break == "x-large" {
+@else if $break == "xlarge" {
     @media (min-width: $break-xlarge) {
             @content;
     }

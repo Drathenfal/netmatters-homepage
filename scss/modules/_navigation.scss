@@ -1,1 +1,36 @@
 //Navigation bar
+
+//the item in nav bar
+.bespoke-nav {
+    background-color: #04AA6D;
+    :hover {
+        background-color: $bespoke;
+    }
+  }
+
+
+  //the drop down container
+.dropdown {
+    width: 100%;
+    height: 400px;
+    background-color: $bespoke;
+    z-index: 1;
+}
+
+
+//list of items
+.dropdown-content {
+    display:hidden;
+    z-index: 2;
+}
+
+
+//the list item 
+.dropdown-content-a {
+    color :white
+  }
+
+  //This should be it
+   .bespoke-nav:hover .dropdown-content {
+     display: block;
+   }
