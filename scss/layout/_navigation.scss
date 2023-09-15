@@ -18,6 +18,12 @@
     justify-content: space-around;
 }
 
-.dropdown {
-    display: none;
+.dropdown-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.dropdown-link {
+    width: 33%;
 }
