@@ -27,6 +27,18 @@ h4 {
     width: 100%;
 }
 
+.category-button {
+    background-color: $web-design;
+    position: absolute;
+    right: 0;
+    color: #fff;
+    font-size: .75rem;
+    padding: 0 10px;
+    line-height: 1.438rem;
+    text-transform: uppercase;
+    z-index: 1;
+}
+
 .title-article1 {
     color:$web-design;
 }

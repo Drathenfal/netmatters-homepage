@@ -1016,10 +1016,60 @@ h2 {
   color: white;
 }
 
-.os-logo {
+.os-logo-bs {
   background-color: #67809f;
   font-size: 2rem;
   line-height: 62px;
+  border-radius: 50%;
+  padding: 8px 12px;
+}
+
+.os-logo-it {
+  background-color: #4183d7;
+  font-size: 2rem;
+  line-height: 62px;
+  border-radius: 50%;
+  padding: 8px 12px;
+}
+
+.os-logo-dm {
+  background-color: #2ecc71;
+  font-size: 2rem;
+  line-height: 62px;
+  border-radius: 50%;
+  padding: 8px 12px;
+}
+
+.os-logo-ts {
+  background-color: #d64541;
+  font-size: 2rem;
+  line-height: 62px;
+  border-radius: 50%;
+  padding: 8px 12px;
+}
+
+.os-logo-wd {
+  background-color: #926fb1;
+  font-size: 2rem;
+  line-height: 62px;
+  border-radius: 50%;
+  padding: 8px 12px;
+}
+
+.os-logo-cs {
+  background-color: #f62459;
+  font-size: 2rem;
+  line-height: 62px;
+  border-radius: 50%;
+  padding: 8px 12px;
+}
+
+.os-logo-dt {
+  background-color: #ce4125;
+  font-size: 2rem;
+  line-height: 62px;
+  border-radius: 50%;
+  padding: 8px 12px;
 }
 
 .os-header {
@@ -1294,6 +1344,18 @@ h4 {
 .card-image {
   object-fit: fill;
   width: 100%;
+}
+
+.category-button {
+  background-color: #926fb1;
+  position: absolute;
+  right: 0;
+  color: #fff;
+  font-size: .75rem;
+  padding: 0 10px;
+  line-height: 1.438rem;
+  text-transform: uppercase;
+  z-index: 1;
 }
 
 .title-article1 {

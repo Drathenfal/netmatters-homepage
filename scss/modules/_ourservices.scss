@@ -155,11 +155,33 @@ h2 {
 }
 }
 
-.os-logo {
-background-color: $bespoke;
-font-size: 2rem;
-line-height: 62px;
-}
+.os-logo-bs {
+   @include service-logo ($bespoke)
+   }
+
+.os-logo-it {
+   @include service-logo ($it-support)
+   }
+
+.os-logo-dm {
+   @include service-logo ($digital-marketing)
+   }
+   
+.os-logo-ts {
+   @include service-logo ($telecoms-services)
+   }
+
+.os-logo-wd {
+   @include service-logo ($web-design)
+   }
+
+.os-logo-cs {
+   @include service-logo ($cyber-security)
+   }
+
+.os-logo-dt {
+   @include service-logo ($developer-course)
+   }
 
 .os-header {
    font-weight: $font-weight--light;

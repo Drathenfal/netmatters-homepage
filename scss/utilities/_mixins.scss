@@ -49,6 +49,15 @@
     white-space: normal;
  }
 
+//services logo
+@mixin service-logo ($color){
+background-color: $color;
+font-size: 2rem;
+line-height: 62px;
+border-radius: 50%;
+padding: 8px 12px;
+}
+
 //media queries
 
 @mixin mq($break) {
