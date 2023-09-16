@@ -45,8 +45,26 @@
     input {
         width: 100%;
     }
-    @media (max-width: 768px) {
+    @media (max-width: $break-medium) {
         display: none;
     }
 }
 
+.contact-button {
+    @media (max-width: $break-large) {
+        display: none;
+    }
+}
+
+.support-button {
+    @media (max-width: $break-large) {
+        display: none;
+    }
+}
+
+//hide this at 991 until 1260
+// .search-bar2 {
+//     @media(max-width: $break-large) {
+//         display: none;
+//     }
+// }

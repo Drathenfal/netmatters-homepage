@@ -552,10 +552,7 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-}
-
-.dropdown-link {
-  width: 33%;
+  align-items: center;
 }
 
 .header-container {
@@ -612,6 +609,18 @@ h3 {
 
 @media (max-width: 768px) {
   .search-container2 {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .contact-button {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .support-button {
     display: none;
   }
 }
@@ -1476,6 +1485,42 @@ h4 {
   cursor: pointer;
 }
 
+.support-button {
+  white-space: nowrap;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 35px;
+  font-size: 20px;
+  border-radius: 6px;
+  padding: 10px 30px;
+  margin: 0px 10px 0px 0px;
+  text-align: center;
+  background-color: #4183d7;
+}
+
+.support-button:hover {
+  background-color: #286abd;
+  cursor: pointer;
+}
+
+.contact-button {
+  white-space: nowrap;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 35px;
+  font-size: 20px;
+  border-radius: 6px;
+  padding: 10px 30px;
+  margin: 0px 0px 0px 0px;
+  text-align: center;
+  background-color: #999aa2;
+}
+
+.contact-button:hover {
+  background-color: #7e808a;
+  cursor: pointer;
+}
+
 .search-bar2 {
   display: inline-flex;
   outline: 1px solid rgba(255, 255, 255, 0.2);
@@ -1500,8 +1545,13 @@ h4 {
   cursor: pointer;
 }
 
-.bespoke-nav {
-  background-color: #04AA6D;
+.container-nav-bar {
+  height: 50px;
+}
+
+.nav-bar-main {
+  background-color: #323544;
+  color: white;
 }
 
 .bespoke-nav:hover {
@@ -1517,7 +1567,7 @@ h4 {
   height: 400px;
   position: absolute;
   left: 0;
-  background-color: #67809f;
+  background-color: #526781;
   z-index: 1;
   display: none;
 }
@@ -1525,13 +1575,19 @@ h4 {
 .bespoke-nav .dropdown .dropdown-container {
   margin-left: auto;
   margin-right: auto;
-  width: 1200px;
+  width: 100%;
 }
 
 .bespoke-nav .dropdown .dropdown-container h2 {
   width: 100%;
+  color: #fff;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  font-weight: 500;
+  font-size: 2rem;
 }
 
 .dropdown-link {
-  color: white;
+  width: 33%;
+  margin-top: 15px;
 }

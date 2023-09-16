@@ -25,6 +25,14 @@
    }
 }
 
+.support-button {
+     @include header-button (0px 10px 0px 0px, $it-support, $it-supportdark);
+}
+
+.contact-button {
+    @include header-button (0px 0px 0px 0px, #999aa2, #7e808a);
+}
+
 .search-bar2 {
     display: inline-flex;
     outline: 1px solid hsla(0,0%,100%,.2);
