@@ -1,6 +1,49 @@
 
 // Mix Ins
 
+//mixin for Nav drop down
+@mixin navigation ($bgcolorhover, $bgcolordrop){
+    padding:20px 30px;
+    @include mq(xlarge){
+    padding:20px 40px;
+    }
+&:hover {
+    background-color: $bgcolorhover;
+    .dropdown {
+      display: block;
+    }
+  }
+
+  .dropdown {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: absolute;
+    left:0;
+    background-color: $bgcolordrop;
+    z-index: 1;
+    display:none;
+    text-align: left;
+  
+  .dropdown-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 970px;
+    @include mq(xlarge){
+        width: 1200px;
+    }
+    h2 {
+
+      width: 100%;
+      color:#fff;
+      margin-bottom: 10px;
+      margin-top: 15px;
+      font-weight: 500;
+      font-size: 2rem;
+    }
+  }
+}
+}
 
 //social media icons
 @mixin socialmedia-icons ($bimg,$bsize){
