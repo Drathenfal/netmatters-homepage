@@ -7,7 +7,18 @@ h4 {
     margin-top: 25px;
 }
 
-
+.category-button {
+    background-color: $web-design;
+    position: absolute;
+    top: 0.5px;
+    right: 1px;
+    color: #fff;
+    font-size: .75rem;
+    padding: 0 10px;
+    line-height: 1.438rem;
+    text-transform: uppercase;
+    z-index: 1;
+}
 
 .container-news-card {
     border: solid #ccc 1px;
@@ -27,17 +38,11 @@ h4 {
     width: 100%;
 }
 
-.category-button {
-    background-color: $web-design;
-    position: absolute;
-    right: 0px;
-    color: #fff;
-    font-size: .75rem;
-    padding: 0 10px;
-    line-height: 1.438rem;
-    text-transform: uppercase;
-    z-index: 1;
-}
+// .card-image-container{
+//     position: relative;
+// }
+
+
 
 .title-article1 {
     color:$web-design;
