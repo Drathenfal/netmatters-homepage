@@ -4,6 +4,19 @@
     box-sizing: border-box;
 }
 
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    @include mq(large){
+        width: 991px;
+    }
+    @include mq(xlarge){
+        width: 1270px;
+    }
+}
+
 body {
     margin: 0;
     background-color: white;

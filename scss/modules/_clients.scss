@@ -8,3 +8,24 @@
         }
     }
 }
+
+
+.black-swan{
+:hover{
+   
+    .black-swan-popup {
+        visibility: visible;
+    }
+   }
+}
+
+
+.black-swan-popup {
+    left: 0;
+    background-color: aqua;
+    z-index: 1;
+    display: none;
+    visibility: hidden;
+    height: 250px;
+    width: 150px;
+}

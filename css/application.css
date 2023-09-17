@@ -38,6 +38,25 @@ textarea {
   box-sizing: border-box;
 }
 
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (min-width: 991px) {
+  .container {
+    width: 991px;
+  }
+}
+
+@media (min-width: 1260px) {
+  .container {
+    width: 1270px;
+  }
+}
+
 body {
   margin: 0;
   background-color: white;
@@ -99,14 +118,26 @@ body a:hover {
   height: auto;
   display: flex;
   flex-flow: column;
-  padding: 0 30px;
+  padding: 0px 30px;
+}
+
+@media (min-width: 1260px) {
+  .container-footer {
+    flex-flow: row;
+  }
 }
 
 .container-socialincicons {
-  width: 80%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   margin: 26px 0px 0px;
+}
+
+@media (min-width: 991px) {
+  .container-socialincicons {
+    width: 40%;
+  }
 }
 
 #follow {
@@ -122,6 +153,12 @@ body a:hover {
 @media (min-width: 480px) {
   .social-media {
     width: 450px;
+  }
+}
+
+@media (min-width: 1260px) {
+  .social-media {
+    width: 300px;
   }
 }
 
@@ -565,10 +602,30 @@ h3 {
 }
 
 .header-container {
-  width: 100%;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (min-width: 991px) {
+  .header-container {
+    width: 991px;
+  }
+}
+
+@media (min-width: 1260px) {
+  .header-container {
+    width: 1270px;
+  }
+}
+
+.header-row {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 40px;
+  margin-bottom: 5px;
 }
 
 .header-logo {
@@ -587,14 +644,6 @@ h3 {
 
 .Ham-icon {
   padding: 5px;
-}
-
-.header-row {
-  display: inline-flex;
-  justify-content: space-evenly;
-  align-items: center;
-  padding: 10px 40px;
-  margin-bottom: 5px;
 }
 
 .search-container {
@@ -719,6 +768,12 @@ footer a:hover {
   background-position: center;
 }
 
+@media (min-width: 480px) {
+  .fb-logo {
+    width: 65px;
+  }
+}
+
 .fb-logo:hover {
   background-color: #3b5998;
 }
@@ -732,6 +787,12 @@ footer a:hover {
   background-repeat: no-repeat;
   background-size: 22px;
   background-position: center;
+}
+
+@media (min-width: 480px) {
+  .in-logo {
+    width: 65px;
+  }
 }
 
 .in-logo:hover {
@@ -749,6 +810,12 @@ footer a:hover {
   background-position: center;
 }
 
+@media (min-width: 480px) {
+  .twitter-logo {
+    width: 65px;
+  }
+}
+
 .twitter-logo:hover {
   background-color: #00aced;
 }
@@ -762,6 +829,12 @@ footer a:hover {
   background-repeat: no-repeat;
   background-size: 24px;
   background-position: center;
+}
+
+@media (min-width: 480px) {
+  .insta-logo {
+    width: 65px;
+  }
 }
 
 .insta-logo:hover {
@@ -871,6 +944,20 @@ label {
 
 .clients img:hover {
   filter: grayscale(0);
+}
+
+.black-swan :hover .black-swan-popup {
+  visibility: visible;
+}
+
+.black-swan-popup {
+  left: 0;
+  background-color: aqua;
+  z-index: 1;
+  display: none;
+  visibility: hidden;
+  height: 250px;
+  width: 150px;
 }
 
 h2 {
@@ -1373,7 +1460,7 @@ h4 {
 .category-button {
   background-color: #926fb1;
   position: absolute;
-  right: 0;
+  right: 0px;
   color: #fff;
   font-size: .75rem;
   padding: 0 10px;
@@ -1474,6 +1561,7 @@ h4 {
 
 .Ham-icon {
   font-size: 32px;
+  margin-left: 10px;
 }
 
 .search-bar {
@@ -1502,7 +1590,7 @@ h4 {
   font-size: 20px;
   border-radius: 6px;
   padding: 10px 30px;
-  margin: 0px 10px 0px 0px;
+  margin: 0px 15px 0px 0px;
   text-align: center;
   background-color: #4183d7;
 }
@@ -1520,7 +1608,7 @@ h4 {
   font-size: 20px;
   border-radius: 6px;
   padding: 10px 30px;
-  margin: 0px 0px 0px 0px;
+  margin: 0px 15px 0px 0px;
   text-align: center;
   background-color: #999aa2;
 }
@@ -1576,12 +1664,12 @@ h4 {
 }
 
 .bs-nav {
-  padding: 20px 30px;
+  padding: 10px 30px;
 }
 
 @media (min-width: 1260px) {
   .bs-nav {
-    padding: 20px 40px;
+    padding: 10px 40px;
   }
 }
 
@@ -1627,12 +1715,12 @@ h4 {
 }
 
 .it-nav {
-  padding: 20px 30px;
+  padding: 10px 30px;
 }
 
 @media (min-width: 1260px) {
   .it-nav {
-    padding: 20px 40px;
+    padding: 10px 40px;
   }
 }
 
@@ -1678,12 +1766,12 @@ h4 {
 }
 
 .dm-nav {
-  padding: 20px 30px;
+  padding: 10px 30px;
 }
 
 @media (min-width: 1260px) {
   .dm-nav {
-    padding: 20px 40px;
+    padding: 10px 40px;
   }
 }
 
@@ -1729,12 +1817,12 @@ h4 {
 }
 
 .ts-nav {
-  padding: 20px 30px;
+  padding: 10px 30px;
 }
 
 @media (min-width: 1260px) {
   .ts-nav {
-    padding: 20px 40px;
+    padding: 10px 40px;
   }
 }
 
@@ -1780,12 +1868,12 @@ h4 {
 }
 
 .wd-nav {
-  padding: 20px 30px;
+  padding: 10px 30px;
 }
 
 @media (min-width: 1260px) {
   .wd-nav {
-    padding: 20px 40px;
+    padding: 10px 40px;
   }
 }
 
@@ -1831,12 +1919,12 @@ h4 {
 }
 
 .cs-nav {
-  padding: 20px 30px;
+  padding: 10px 30px;
 }
 
 @media (min-width: 1260px) {
   .cs-nav {
-    padding: 20px 40px;
+    padding: 10px 40px;
   }
 }
 
@@ -1882,12 +1970,12 @@ h4 {
 }
 
 .dc-nav {
-  padding: 20px 30px;
+  padding: 10px 30px;
 }
 
 @media (min-width: 1260px) {
   .dc-nav {
-    padding: 20px 40px;
+    padding: 10px 40px;
   }
 }
 

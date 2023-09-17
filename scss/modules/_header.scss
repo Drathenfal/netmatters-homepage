@@ -6,6 +6,7 @@
 
 .Ham-icon {
     font-size: 32px;
+    margin-left: 10px;
 }
 
 .search-bar {
@@ -26,11 +27,11 @@
 }
 
 .support-button {
-     @include header-button (0px 10px 0px 0px, $it-support, $it-supportdark);
+     @include header-button (0px 15px 0px 0px, $it-support, $it-supportdark);
 }
 
 .contact-button {
-    @include header-button (0px 0px 0px 0px, #999aa2, #7e808a);
+    @include header-button (0px 15px 0px 0px, #999aa2, #7e808a);
 }
 
 .search-bar2 {
@@ -40,7 +41,6 @@
     width: 100%;
     height: 58px;
     padding: 0px 0px 0px 15px;
-
 }
 
 .search-button2 {

@@ -3,9 +3,9 @@
 
 //mixin for Nav drop down
 @mixin navigation ($bgcolorhover, $bgcolordrop){
-    padding:20px 30px;
+    padding:10px 30px;
     @include mq(xlarge){
-    padding:20px 40px;
+    padding:10px 40px;
     }
 &:hover {
     background-color: $bgcolorhover;
@@ -55,6 +55,9 @@
     background-repeat: no-repeat;
     background-size: $bsize;
     background-position: center;
+    @media (min-width: 480px){
+        width: 65px;
+    }
 }
 
 //welcome to buttons
