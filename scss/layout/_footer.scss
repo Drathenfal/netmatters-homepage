@@ -1,15 +1,23 @@
 //footer layout
 
 .container-footer {
-width: 100%;
-height:auto;
-display: flex;
-flex-flow:column;
-padding: 0px 30px;
-    @include mq(xlarge){
-        flex-flow:row;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        display: flex;
+    flex-flow:column;
+        @include mq(large){
+            width: 991px;
+        }
+        @include mq(xlarge){
+            width: 1270px;
+        }
+        @include mq(xlarge){
+            flex-flow:row;
     }
 }
+
 
 .container-socialincicons {
     width: 100%;
@@ -70,15 +78,32 @@ h6 {
 
 .footer-bottom {
     width: 100%;
+
+}
+
+
+.footer-bottom-container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
     display: flex;
     flex-direction:column;
     justify-content: space-between;
-
     @include mq(medium) {
         flex-direction: row;
         justify-content: flex-start;
     }
+    @include mq(large){
+        width: 991px;
+    }
+    @include mq(xlarge){
+        width: 1270px;
+    }
 }
+
+
+
 
 .hidden-hyphen {
     @media (max-width: 768px) {

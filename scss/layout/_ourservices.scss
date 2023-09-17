@@ -1,8 +1,18 @@
 //our services
 
 .os-container {
-    margin: 0px 10px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    @include mq(large){
+        width: 991px;
+    }
+    @include mq(xlarge){
+        width: 1270px;
+    }
 }
+
 
 .os-container {
     padding: 50px 10px;

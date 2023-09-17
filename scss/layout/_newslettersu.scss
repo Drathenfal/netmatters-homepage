@@ -4,9 +4,19 @@
     padding: 15px 15px;
     display: flex;
     align-items: center;
-    @include mq(medium) {
-        padding: 15px 30px;
+    margin-right: auto;
+    margin-left: auto;
+    @include mq(large){
+        width: 991px;
     }
+    @include mq(xlarge){
+        width: 1270px;
+    }
+}
+
+.container-newslettersu-keepbg{
+    background-color: $lighter-background;
+    width: 100%;
 }
 
 h5 {

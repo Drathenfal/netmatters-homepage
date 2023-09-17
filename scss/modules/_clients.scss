@@ -10,22 +10,22 @@
 }
 
 
-.black-swan{
-:hover{
-   
+.black-swan:hover {
     .black-swan-popup {
-        visibility: visible;
-    }
-   }
+    display: block;
+  }
 }
 
 
+
+
 .black-swan-popup {
-    left: 0;
+    top: 0;
     background-color: aqua;
     z-index: 1;
+    position: relative;
     display: none;
-    visibility: hidden;
+    // visibility: visible;
     height: 250px;
     width: 150px;
 }
