@@ -36,6 +36,9 @@
     @include mq(medium) {
         display: none;
     }
+    i {
+        color: #333645;
+    }
 }
 
 .Ham-icon {

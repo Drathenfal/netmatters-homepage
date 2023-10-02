@@ -1,17 +1,18 @@
 //newsletter signup
 
 .container-newslettersu {
-    padding: 15px 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     display: flex;
     align-items: center;
-    margin-right: auto;
-    margin-left: auto;
-    @include mq(large){
-        width: 991px;
-    }
-    @include mq(xlarge){
-        width: 1270px;
-    }
+    // margin-right: auto;
+    // margin-left: auto;
+    // @include mq(large){
+    //     width: 991px;
+    // }
+    // @include mq(xlarge){
+    //     width: 1270px;
+    // }
 }
 
 .container-newslettersu-keepbg{

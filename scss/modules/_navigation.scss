@@ -24,6 +24,9 @@ small {
 
 .bs-nav {
   @include navigation ($bespoke, $bespokedark);
+    span:first-child {
+      color: $bespoke;
+    }
 }
 
 .it-nav {

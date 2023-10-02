@@ -261,23 +261,10 @@ h6 {
 }
 
 .container-newslettersu {
-  padding: 15px 15px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   display: flex;
   align-items: center;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-@media (min-width: 991px) {
-  .container-newslettersu {
-    width: 991px;
-  }
-}
-
-@media (min-width: 1260px) {
-  .container-newslettersu {
-    width: 1270px;
-  }
 }
 
 .container-newslettersu-keepbg {
@@ -688,6 +675,10 @@ h3 {
   }
 }
 
+.phone-icon i {
+  color: #333645;
+}
+
 .Ham-icon {
   padding: 5px;
 }
@@ -931,6 +922,12 @@ label {
   border-radius: 2px;
   background-color: #fff;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.form-news:focus {
+  border-color: #5bc0de;
+  outline: 0;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(91, 192, 222, 0.6);
 }
 
 .checkbox-input {
@@ -1329,6 +1326,10 @@ h2 {
   font-size: 1.625rem;
 }
 
+.viewourwork i {
+  color: #333645;
+}
+
 .viewourwork:hover {
   text-decoration: underline;
 }
@@ -1404,8 +1405,8 @@ strong a:hover {
   margin-bottom: 25px;
 }
 
-.fa-sharp fa-solid fa-star {
-  color: #ffa500 !important;
+.rating i {
+  color: #ffa500;
 }
 
 .quote {
@@ -1473,7 +1474,7 @@ h4 {
   background-color: #926fb1;
   position: absolute;
   top: 0.5px;
-  right: 1px;
+  right: 0;
   color: #fff;
   font-size: .75rem;
   padding: 0 10px;
@@ -1581,6 +1582,10 @@ h4 {
   color: #333645;
   font-weight: 600;
   font-size: 1.625rem;
+}
+
+.viewall i {
+  color: #333645;
 }
 
 .viewall:hover {
@@ -1744,6 +1749,10 @@ h4 {
   margin-top: 15px;
   font-weight: 500;
   font-size: 2rem;
+}
+
+.bs-nav span:first-child {
+  color: #67809f;
 }
 
 .it-nav {

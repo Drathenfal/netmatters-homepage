@@ -11,7 +11,7 @@ h4 {
     background-color: $web-design;
     position: absolute;
     top: 0.5px;
-    right: 1px;
+    right: 0;
     color: #fff;
     font-size: .75rem;
     padding: 0 10px;
@@ -37,12 +37,6 @@ h4 {
     object-fit: fill;
     width: 100%;
 }
-
-// .card-image-container{
-//     position: relative;
-// }
-
-
 
 .title-article1 {
     color:$web-design;
@@ -95,6 +89,9 @@ h4 {
     color: $dark-text;
     font-weight: $font-weight--bold;
     font-size: 1.625rem;
+    i {
+        color: #333645;
+    }
 }
 
 .viewall:hover {
