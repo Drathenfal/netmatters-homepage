@@ -1,5 +1,5 @@
 //Welcome
-.container-welcometo {
+.container-welcometo-keepbg {
     background-color: $light-background;
     color:#fff;
 }
@@ -19,15 +19,14 @@ strong {
 }
 
 .whychooseus-button {
-    @include welcometo-button (20px 8px 17px auto, $defaultbg, $defaultbg-hover);
+    @include welcometo-button (0px 5px 17px 0px, $defaultbg, $defaultbg-hover);
 }
 
 .ourculture-button {
-    @include welcometo-button (auto auto 50px , $defaultbg, $defaultbg-hover);
+    @include welcometo-button (0px auto 50px, $defaultbg, $defaultbg-hover);
 }
 
 .rating {
-    //fix later should be 50px
     font-size:40px;
     margin-bottom: 25px;
     i {
@@ -52,9 +51,9 @@ strong {
 }
 
 .googlereviews-button {
-    @include welcometo-button (20px 8px auto auto, $googlereview, $googlereview-hover);
+    @include welcometo-button (0px 5px 17px auto, $googlereview, $googlereview-hover);
 }
 
 .trustpilot-button {
-    @include welcometo-button (20px auto auto, $trustpilot, $trustpilot-hover);
+    @include welcometo-button (0px auto auto, $trustpilot, $trustpilot-hover);
 }

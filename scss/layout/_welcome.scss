@@ -18,16 +18,29 @@ h3 {
 }
 
 .welcometo {
-    @include mq(large){
-        padding:0px 15px;
-        width: 50%;
-        } 
-}
 
-.clientsthink {
-    @include mq(large){
-    padding:0px 15px; 
-    width: 50%;
+            @include mq(large){
+                padding-left: 15px;
+                padding-right: 15px;
+            width: 50%;
+            }
+    p {
+        margin-bottom: 25px;
     }
 }
 
+.clientsthink {
+
+        @include mq(large){
+            padding-left: 15px;
+            padding-right: 15px;
+        width: 50%;
+        }
+    p {
+        margin-bottom: 25px;
+    }
+}
+
+.n-margin-top {
+    margin-top: 25px;
+}
