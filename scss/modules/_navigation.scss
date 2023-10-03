@@ -11,13 +11,16 @@ text-align: center;
 span {
   font-size: 1.438rem;
     display: block;
-    padding-bottom: 10px;
+    padding-top: 10px;
 }
-
 small {
   display: block;
   font-size: .625rem;
-  padding-bottom: 1px;
+  text-transform: uppercase;
+}
+p {
+  text-transform: uppercase;
+  padding-bottom: 10px;
 }
 }
 

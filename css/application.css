@@ -1785,23 +1785,22 @@ h4 {
 .nav-bar-main span {
   font-size: 1.438rem;
   display: block;
-  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 .nav-bar-main small {
   display: block;
   font-size: .625rem;
-  padding-bottom: 1px;
+  text-transform: uppercase;
+}
+
+.nav-bar-main p {
+  text-transform: uppercase;
+  padding-bottom: 10px;
 }
 
 .bs-nav {
-  padding: 10px 30px;
-}
-
-@media (min-width: 1260px) {
-  .bs-nav {
-    padding: 10px 40px;
-  }
+  flex-grow: 1;
 }
 
 .bs-nav:hover {
@@ -1850,13 +1849,7 @@ h4 {
 }
 
 .it-nav {
-  padding: 10px 30px;
-}
-
-@media (min-width: 1260px) {
-  .it-nav {
-    padding: 10px 40px;
-  }
+  flex-grow: 1;
 }
 
 .it-nav:hover {
@@ -1901,13 +1894,7 @@ h4 {
 }
 
 .dm-nav {
-  padding: 10px 30px;
-}
-
-@media (min-width: 1260px) {
-  .dm-nav {
-    padding: 10px 40px;
-  }
+  flex-grow: 1;
 }
 
 .dm-nav:hover {
@@ -1952,13 +1939,7 @@ h4 {
 }
 
 .ts-nav {
-  padding: 10px 30px;
-}
-
-@media (min-width: 1260px) {
-  .ts-nav {
-    padding: 10px 40px;
-  }
+  flex-grow: 1;
 }
 
 .ts-nav:hover {
@@ -2003,13 +1984,7 @@ h4 {
 }
 
 .wd-nav {
-  padding: 10px 30px;
-}
-
-@media (min-width: 1260px) {
-  .wd-nav {
-    padding: 10px 40px;
-  }
+  flex-grow: 1;
 }
 
 .wd-nav:hover {
@@ -2054,13 +2029,7 @@ h4 {
 }
 
 .cs-nav {
-  padding: 10px 30px;
-}
-
-@media (min-width: 1260px) {
-  .cs-nav {
-    padding: 10px 40px;
-  }
+  flex-grow: 1;
 }
 
 .cs-nav:hover {
@@ -2105,13 +2074,7 @@ h4 {
 }
 
 .dc-nav {
-  padding: 10px 30px;
-}
-
-@media (min-width: 1260px) {
-  .dc-nav {
-    padding: 10px 40px;
-  }
+  flex-grow: 1;
 }
 
 .dc-nav:hover {

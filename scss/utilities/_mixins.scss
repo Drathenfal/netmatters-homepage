@@ -3,10 +3,11 @@
 
 //mixin for Nav drop down
 @mixin navigation ($bgcolorhover, $bgcolordrop){
-    padding:10px 30px;
-    @include mq(xlarge){
-    padding:10px 40px;
-    }
+    // padding:10px 30px;
+    // @include mq(xlarge){
+    // padding:10px 40px;
+    // }
+    flex-grow: 1;
 &:hover {
     background-color: $bgcolorhover;
     .dropdown {
