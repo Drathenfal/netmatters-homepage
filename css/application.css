@@ -648,10 +648,7 @@ h3 {
 }
 
 .nav-bar-main {
-  width: 100%;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
 }
 
 .dropdown-content {
@@ -1800,7 +1797,15 @@ h4 {
 }
 
 .bs-nav {
-  flex-grow: 1;
+  flex: 1;
+}
+
+.bs-nav span:first-child {
+  color: #67809f;
+}
+
+.bs-nav:hover span:first-child {
+  color: #fff;
 }
 
 .bs-nav:hover {
@@ -1844,12 +1849,16 @@ h4 {
   font-size: 2rem;
 }
 
-.bs-nav span:first-child {
-  color: #67809f;
+.it-nav {
+  flex: 1;
 }
 
-.it-nav {
-  flex-grow: 1;
+.it-nav span:first-child {
+  color: #4183d7;
+}
+
+.it-nav:hover span:first-child {
+  color: #fff;
 }
 
 .it-nav:hover {
@@ -1894,7 +1903,15 @@ h4 {
 }
 
 .dm-nav {
-  flex-grow: 1;
+  flex: 1;
+}
+
+.dm-nav span:first-child {
+  color: #2ecc71;
+}
+
+.dm-nav:hover span:first-child {
+  color: #fff;
 }
 
 .dm-nav:hover {
@@ -1939,7 +1956,15 @@ h4 {
 }
 
 .ts-nav {
-  flex-grow: 1;
+  flex: 1;
+}
+
+.ts-nav span:first-child {
+  color: #d64541;
+}
+
+.ts-nav:hover span:first-child {
+  color: #fff;
 }
 
 .ts-nav:hover {
@@ -1984,7 +2009,15 @@ h4 {
 }
 
 .wd-nav {
-  flex-grow: 1;
+  flex: 1;
+}
+
+.wd-nav span:first-child {
+  color: #926fb1;
+}
+
+.wd-nav:hover span:first-child {
+  color: #fff;
 }
 
 .wd-nav:hover {
@@ -2029,7 +2062,15 @@ h4 {
 }
 
 .cs-nav {
-  flex-grow: 1;
+  flex: 1;
+}
+
+.cs-nav span:first-child {
+  color: #f62459;
+}
+
+.cs-nav:hover span:first-child {
+  color: #fff;
 }
 
 .cs-nav:hover {
@@ -2074,7 +2115,15 @@ h4 {
 }
 
 .dc-nav {
-  flex-grow: 1;
+  flex: 1;
+}
+
+.dc-nav span:first-child {
+  color: #ce4125;
+}
+
+.dc-nav:hover span:first-child {
+  color: #fff;
 }
 
 .dc-nav:hover {
