@@ -9,6 +9,9 @@
     margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
+    @include mq(medium){
+        width: 750px;
+    }
     @include mq(large){
         width: 991px;
     }

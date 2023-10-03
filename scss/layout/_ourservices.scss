@@ -23,15 +23,17 @@
 .os-content-container{
     display: flex;
     width: 100%;
-    height:300px;
+    height:315px;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    margin: 30px 0px 0px;
     text-align: center;
     border-radius: 15px;
     border: 1px solid #ccc;
     padding: 30px;
+    div {
+        margin-bottom: 10px;
+    }
     a:hover {
         cursor: pointer;
      }
@@ -62,6 +64,11 @@
    display: flex;
    justify-content: space-between;
    align-items: center;
+   margin-bottom: 30px;
+   @include mq(medium){
+   padding-left: 15px;
+   padding-right: 15px;
+   }
 }
 
 .container-service{
@@ -69,7 +76,8 @@
     flex-direction: row;
     align-items: flex-start;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 25px;
 }
 
 #bs-service{
