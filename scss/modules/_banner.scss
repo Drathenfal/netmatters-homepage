@@ -24,31 +24,32 @@
             line-height: 2.5rem;
     } 
     }
-}
-
-h1 {
-    font-size: 2.5rem;
-    line-height: 3rem;
-    margin: 0 0 1.25rem;
-    color:#fff;
-    font-weight: $font-weight--bold;
-    @include mq(large){
-        font-size: 4rem;
-        line-height: 5rem;
-} 
-}
-
-.banner-button {
-    color: #fff;
-    text-transform: uppercase;
-    line-height: 50px;
-    font-size: 1.25rem;
-    border-radius: 3px;
-    padding: 5px 20px;
-    text-align: center;
-    background-color: #926fb1;
-    &:hover {
-        background-color: #7e57a0;
-        cursor: pointer;
+    h1 {
+        font-size: 2.5rem;
+        line-height: 3rem;
+        margin: 0 0 1.25rem;
+        color:#fff;
+        font-weight: $font-weight--bold;
+        @include mq(large){
+            font-size: 4rem;
+            line-height: 5rem;
+    } 
+    }
+    .banner-button {
+        color: #fff;
+        text-transform: uppercase;
+        line-height: 50px;
+        font-size: 1.25rem;
+        border-radius: 3px;
+        padding: 5px 20px;
+        text-align: center;
+        background-color: #926fb1;
+        &:hover {
+            background-color: #7e57a0;
+            cursor: pointer;
+        }
     }
 }
+
+
+

@@ -1,18 +1,35 @@
 //header
 
-.phone-icon {
-    font-size: 32px;
+.logo-container{
+    flex-grow: 1;
+    @include mq(medium){
+        margin-right: 20px;
+    }
 }
 
-.Ham-icon {
-    font-size: 32px;
-    margin-left: 10px;
+.phone-icon {
+    font-size: 25px;
+}
+
+.hamburger {
+    display: block;
+background-color: $dark-text;
+padding: 10px 15px;
+border-radius: 3px;
+margin-left: 20px;
+    .bar {
+        width: 25px;
+        height: 3px;
+        background-color: #fff;
+        margin: 6px auto;
+    }
 }
 
 .search-bar {
     background-color: rgba(0,0,0,.1);
     outline: 1px solid hsla(0,0%,100%,.2);
     border: 2px solid rgba(0,0,0,.1);
+    border-radius: 2px;
     width: 100%;
     height: 47px;
     padding: 5px 5px 5px 15px;
@@ -36,21 +53,30 @@
 
 .search-bar2 {
     display: inline-flex;
-    outline: 1px solid hsla(0,0%,100%,.2);
+    // outline: 1px solid hsla(0,0%,100%,.2);
     border: 2px solid rgba(0,0,0,.1);
+    border-right: none;  // makes it look alot better alligns better with button 
     width: 100%;
     height: 58px;
     padding: 0px 0px 0px 15px;
-}
+        // hide this at 991 until 1260
+        @media (min-width: 992px) and (max-width: 1243px){
+            display: none;
+        }
+    }
 
 .search-button2 {
     padding: 7px 20px;
-    height: 56px;
-    font-size: 1.063rem;
+    height: 58px;
+    width: 70px;
+    font-size: 1.4rem;
     border-radius: 0 3px 3px 0;
-    border: none;
     background-color: #999aa2;
     color: #fff;
+    text-align: center;
+    @media (min-width: 992px) and (max-width: 1243px){
+        border-radius: 3px;
+    }
  }
 
  .search-button2{

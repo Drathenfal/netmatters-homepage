@@ -17,8 +17,6 @@
     display: flex;
     justify-content: center;
     align-items:center;
-    padding: 10px 40px;
-    margin-bottom: 5px;
     @include mq(small) {
         justify-content: space-between;
 }
@@ -32,7 +30,7 @@
 }
 
 .phone-icon {
-    padding: 5px;
+    margin-left: 20px;
     @include mq(medium) {
         display: none;
     }
@@ -41,13 +39,9 @@
     }
 }
 
-.Ham-icon {
-    padding: 5px;
-}
-
 
 .search-container {
-
+    margin-top: 11px;
     input {
         width: 100%;
     }
@@ -57,6 +51,7 @@
 }
 
 .search-container2 {
+    display: flex;   //makes search button and input inline with each other
     input {
         width: 100%;
     }
@@ -77,9 +72,8 @@
     }
 }
 
-//hide this at 991 until 1260
+// // hide this at 991 until 1260
 // .search-bar2 {
-//     @media(max-width: $break-large) {
-//         display: none;
-//     }
-// }
+// @media (min-width: 992px) and (max-width: 1243px){
+//     display: none;
+// }}
