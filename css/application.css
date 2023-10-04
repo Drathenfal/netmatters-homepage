@@ -1023,6 +1023,14 @@ h2 {
   color: white;
 }
 
+#bs-service:hover:hover .os-logo-bs {
+  background-color: white;
+}
+
+#bs-service:hover:hover i {
+  color: #67809f;
+}
+
 #bs-service:hover .os-rm-bs {
   background-color: white;
   color: #67809f;
@@ -1044,6 +1052,14 @@ h2 {
   transition: .5s ease;
   background-color: #4183d7;
   color: white;
+}
+
+#it-service:hover:hover .os-logo-it {
+  background-color: white;
+}
+
+#it-service:hover:hover i {
+  color: #4183d7;
 }
 
 #it-service:hover .os-rm-it {
@@ -1069,6 +1085,14 @@ h2 {
   color: white;
 }
 
+#dm-service:hover:hover .os-logo-dm {
+  background-color: white;
+}
+
+#dm-service:hover:hover i {
+  color: #2ecc71;
+}
+
 #dm-service:hover .os-rm-dm {
   background-color: white;
   color: #2ecc71;
@@ -1090,6 +1114,14 @@ h2 {
   transition: .5s ease;
   background-color: #d64541;
   color: white;
+}
+
+#ts-service:hover:hover .os-logo-ts {
+  background-color: white;
+}
+
+#ts-service:hover:hover i {
+  color: #d64541;
 }
 
 #ts-service:hover .os-rm-ts {
@@ -1115,6 +1147,14 @@ h2 {
   color: white;
 }
 
+#wd-service:hover:hover .os-logo-wd {
+  background-color: white;
+}
+
+#wd-service:hover:hover i {
+  color: #926fb1;
+}
+
 #wd-service:hover .os-rm-wd {
   background-color: white;
   color: #926fb1;
@@ -1138,6 +1178,14 @@ h2 {
   color: white;
 }
 
+#cs-service:hover:hover .os-logo-cs {
+  background-color: white;
+}
+
+#cs-service:hover:hover i {
+  color: #f62459;
+}
+
 #cs-service:hover .os-rm-cs {
   background-color: white;
   color: #f62459;
@@ -1159,6 +1207,14 @@ h2 {
   transition: .5s ease;
   background-color: #ce4125;
   color: white;
+}
+
+#dt-service:hover:hover .os-logo-dt {
+  background-color: white;
+}
+
+#dt-service:hover:hover i {
+  color: #ce4125;
 }
 
 #dt-service:hover .os-rm-dt {
@@ -1392,6 +1448,10 @@ h2 {
 }
 
 .viewourwork:hover {
+  text-decoration: underline;
+}
+
+.viewourwork:hover:hover i {
   text-decoration: underline;
 }
 
@@ -1646,6 +1706,10 @@ h4 {
 }
 
 .viewall:hover {
+  text-decoration: underline;
+}
+
+.viewall:hover i {
   text-decoration: underline;
 }
 
