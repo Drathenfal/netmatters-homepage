@@ -18,6 +18,23 @@
     }
   }
 
+  //arrow affects on hover
+  &:hover::after{
+    content: '';
+    position: relative;   //change back to relative
+    top: 69px;    //69px
+    width: 0;
+    height: 0;
+    border-left: 68px solid transparent;
+    border-right: 68px solid transparent;
+    border-top: 45px solid $bgcolorhover;
+    z-index: 1;
+    @include mq(xlarge){
+      border-left: 88px solid transparent;
+      border-right: 88px solid transparent;
+    }
+  }
+
   .dropdown {
     width: 100%;
     padding-top: 50px;

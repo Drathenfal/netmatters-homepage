@@ -576,6 +576,10 @@ h3 {
   margin-right: 20px;
 }
 
+.card-logo img {
+  border-radius: 100%;
+}
+
 .read-more-article1 {
   margin: 20px 0px;
 }
@@ -1594,7 +1598,7 @@ h4 {
 .category-button {
   background-color: #926fb1;
   position: absolute;
-  top: 0.5px;
+  top: 20px;
   right: 0;
   color: #fff;
   font-size: .75rem;
@@ -1602,6 +1606,27 @@ h4 {
   line-height: 1.438rem;
   text-transform: uppercase;
   z-index: 1;
+}
+
+.category-button:hover {
+  text-decoration: underline;
+}
+
+.category-button2 {
+  background-color: #ce4125;
+  position: absolute;
+  top: 20px;
+  right: 0;
+  color: #fff;
+  font-size: .75rem;
+  padding: 0 10px;
+  line-height: 1.438rem;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+.category-button2:hover {
+  text-decoration: underline;
 }
 
 .container-news-card {
@@ -1618,9 +1643,8 @@ h4 {
   cursor: pointer;
 }
 
-.card-image {
-  object-fit: fill;
-  width: 100%;
+.card-image-container img {
+  min-height: 226px;
 }
 
 .title-article1 {
@@ -1880,6 +1904,25 @@ h4 {
   display: block;
 }
 
+.bs-nav:hover::after {
+  content: '';
+  position: relative;
+  top: 69px;
+  width: 0;
+  height: 0;
+  border-left: 68px solid transparent;
+  border-right: 68px solid transparent;
+  border-top: 45px solid #67809f;
+  z-index: 1;
+}
+
+@media (min-width: 1260px) {
+  .bs-nav:hover::after {
+    border-left: 88px solid transparent;
+    border-right: 88px solid transparent;
+  }
+}
+
 .bs-nav .dropdown {
   width: 100%;
   padding-top: 50px;
@@ -1931,6 +1974,25 @@ h4 {
 
 .it-nav:hover .dropdown {
   display: block;
+}
+
+.it-nav:hover::after {
+  content: '';
+  position: relative;
+  top: 69px;
+  width: 0;
+  height: 0;
+  border-left: 68px solid transparent;
+  border-right: 68px solid transparent;
+  border-top: 45px solid #4183d7;
+  z-index: 1;
+}
+
+@media (min-width: 1260px) {
+  .it-nav:hover::after {
+    border-left: 88px solid transparent;
+    border-right: 88px solid transparent;
+  }
 }
 
 .it-nav .dropdown {
@@ -1986,6 +2048,25 @@ h4 {
   display: block;
 }
 
+.dm-nav:hover::after {
+  content: '';
+  position: relative;
+  top: 69px;
+  width: 0;
+  height: 0;
+  border-left: 68px solid transparent;
+  border-right: 68px solid transparent;
+  border-top: 45px solid #2ecc71;
+  z-index: 1;
+}
+
+@media (min-width: 1260px) {
+  .dm-nav:hover::after {
+    border-left: 88px solid transparent;
+    border-right: 88px solid transparent;
+  }
+}
+
 .dm-nav .dropdown {
   width: 100%;
   padding-top: 50px;
@@ -2037,6 +2118,25 @@ h4 {
 
 .ts-nav:hover .dropdown {
   display: block;
+}
+
+.ts-nav:hover::after {
+  content: '';
+  position: relative;
+  top: 69px;
+  width: 0;
+  height: 0;
+  border-left: 68px solid transparent;
+  border-right: 68px solid transparent;
+  border-top: 45px solid #d64541;
+  z-index: 1;
+}
+
+@media (min-width: 1260px) {
+  .ts-nav:hover::after {
+    border-left: 88px solid transparent;
+    border-right: 88px solid transparent;
+  }
 }
 
 .ts-nav .dropdown {
@@ -2092,6 +2192,25 @@ h4 {
   display: block;
 }
 
+.wd-nav:hover::after {
+  content: '';
+  position: relative;
+  top: 69px;
+  width: 0;
+  height: 0;
+  border-left: 68px solid transparent;
+  border-right: 68px solid transparent;
+  border-top: 45px solid #926fb1;
+  z-index: 1;
+}
+
+@media (min-width: 1260px) {
+  .wd-nav:hover::after {
+    border-left: 88px solid transparent;
+    border-right: 88px solid transparent;
+  }
+}
+
 .wd-nav .dropdown {
   width: 100%;
   padding-top: 50px;
@@ -2145,6 +2264,25 @@ h4 {
   display: block;
 }
 
+.cs-nav:hover::after {
+  content: '';
+  position: relative;
+  top: 69px;
+  width: 0;
+  height: 0;
+  border-left: 68px solid transparent;
+  border-right: 68px solid transparent;
+  border-top: 45px solid #f62459;
+  z-index: 1;
+}
+
+@media (min-width: 1260px) {
+  .cs-nav:hover::after {
+    border-left: 88px solid transparent;
+    border-right: 88px solid transparent;
+  }
+}
+
 .cs-nav .dropdown {
   width: 100%;
   padding-top: 50px;
@@ -2196,6 +2334,25 @@ h4 {
 
 .dc-nav:hover .dropdown {
   display: block;
+}
+
+.dc-nav:hover::after {
+  content: '';
+  position: relative;
+  top: 69px;
+  width: 0;
+  height: 0;
+  border-left: 68px solid transparent;
+  border-right: 68px solid transparent;
+  border-top: 45px solid #ce4125;
+  z-index: 1;
+}
+
+@media (min-width: 1260px) {
+  .dc-nav:hover::after {
+    border-left: 88px solid transparent;
+    border-right: 88px solid transparent;
+  }
 }
 
 .dc-nav .dropdown {

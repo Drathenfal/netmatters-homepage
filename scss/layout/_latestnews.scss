@@ -10,9 +10,6 @@
     margin:30px 10px;
 }
 
-// .card-image-container {
-// }
-
 
 .container-card-core {
     padding: 30px;
@@ -27,7 +24,10 @@
 }
 
 .card-logo {
-margin-right: 20px;
+    margin-right: 20px;
+    img{
+        border-radius: 100%;
+    }
 }
 
 .read-more-article1 {

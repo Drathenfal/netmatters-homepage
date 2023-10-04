@@ -10,7 +10,7 @@ h4 {
 .category-button {
     background-color: $web-design;
     position: absolute;
-    top: 0.5px;
+    top: 20px;
     right: 0;
     color: #fff;
     font-size: .75rem;
@@ -18,6 +18,25 @@ h4 {
     line-height: 1.438rem;
     text-transform: uppercase;
     z-index: 1;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.category-button2 {
+    background-color: $developer-course;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    color: #fff;
+    font-size: .75rem;
+    padding: 0 10px;
+    line-height: 1.438rem;
+    text-transform: uppercase;
+    z-index: 1;
+    &:hover {
+        text-decoration: underline;
+    }
 }
 
 .container-news-card {
@@ -33,10 +52,14 @@ h4 {
     }
 }
 
-.card-image {
-    object-fit: fill;
-    width: 100%;
+
+.card-image-container {
+
+    img{
+min-height: 226px;   ////temp fix
+    }
 }
+
 
 .title-article1 {
     color:$web-design;
@@ -70,6 +93,7 @@ h4 {
 
 .container-card-footer {
     border-top: solid #ccc 1px;
+    // border-radius: 
 }
 
 .postedby {
