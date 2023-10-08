@@ -282,13 +282,6 @@ h6 {
   }
 }
 
-.container-newslettersu {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  display: flex;
-  align-items: center;
-}
-
 .container-newslettersu-keepbg {
   background-color: #dddddd;
   width: 100%;
@@ -915,10 +908,6 @@ h6 {
   padding: 15px 15px;
 }
 
-.container-newslettersu {
-  background-color: #dddddd;
-}
-
 h5 {
   color: #333645;
   font-size: 2rem;
@@ -978,6 +967,10 @@ label {
 
 .privacy-policy {
   text-decoration: underline;
+}
+
+.privacy-policy:hover {
+  color: #12272c;
 }
 
 .news-subscribe {

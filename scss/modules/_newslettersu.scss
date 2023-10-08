@@ -1,9 +1,9 @@
 
 //Newsletter sign up
 
-.container-newslettersu {
-    background-color: $lighter-background;
-}
+// .container-newslettersu {
+//     background-color: $lighter-background;
+// }
 
 h5 {
     color: $dark-text;
@@ -65,6 +65,9 @@ background:#333645;
 
 .privacy-policy {
     text-decoration: underline;
+    &:hover {
+        color: #12272c;
+    }
 }
 
 .news-subscribe {
