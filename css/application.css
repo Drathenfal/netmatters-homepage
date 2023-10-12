@@ -1863,6 +1863,7 @@ h4 {
 .nav-bar-main {
   color: white;
   text-align: center;
+  max-height: 95px;
 }
 
 .nav-bar-main span {
