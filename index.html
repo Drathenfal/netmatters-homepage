@@ -15,8 +15,9 @@
 
 <body>
 <!--HEADER-->
-<header class="container padtwenty">
-
+<header class="header">
+    <div class="keep-bg-white">
+<div class="container pad20">
 <div class="header-row">
     <div class="logo-container"><a href="#"><img class="header-logo" src="images/main-netmatters/netmatters-logo-darkgrey.png" alt="Netmatters Logo"></a></div>
     <a class="phone-icon" href="#" target="_blank"><i class="fa-solid fa-phone"></i></a>
@@ -24,8 +25,7 @@
     <a class="contact-button" href="#" target="_blank"><i class="fa-regular fa-paper-plane"></i> Contact</a>
     <div class="search-container2">
         <form class="search-bar2">
-        <input type="text" placeholder="Search...">
-        
+        <input type="text" placeholder="Search..."> 
         </form>
         <button class="search-button2" type="submit"><i class="fa fa-search"></i></button>
     </div>
@@ -41,12 +41,11 @@
 <button class="search-button" type="submit"><i class="fa fa-search"></i></button>
 </form>
 </div>
-</header>
-
-<!--NAV-->
+</div>
+</div>
+<!--Nav-->
 <nav class="nav-bar">
-    <div class="container">
-    
+    <div class="container"> 
 <ul class="nav-bar-main">
 
     <li class="bs-nav"><a href="#">
@@ -174,6 +173,33 @@
 </ul>
 </div>
 </nav>
+</header>
+<!--SIDE MENU-->
+<aside>
+    <div id="Small-nav-menu" class="pad-21">
+        <ul>
+            <li><a href="#"><span><i class="fa-solid fa-laptop"></i></span><small>Bespoke</small>Contact Us</a></li>
+            <li><a href="#">Software</a></li>
+                <div class="container sub-menu">
+                    <ul>
+                        <li><a href="#">Bespoke Crm</a></li>
+                        <li><a href="#">Business Automation</a></li>
+                        <li><a href="#">Software Integrations</a></li>
+                        <li><a href="#">Mobile App Development</a></li>
+                        <li><a href="#">Bespoke Databases</a></li>
+                        <li><a href="#">Sharepoint Development</a></li>
+                        <li><a href="#">Operational Systems</a></li>
+                        <li><a href="#">Business Central Implementation</a></li>
+                        <li><a href="#">Internet of Thing (IOT) Software</a></li>
+                        <li><a href="#">Customer Portal Development</a></li>
+                        <li><a href="#">Reporting Hub</a></li>
+                    </ul>
+                </div>
+        </ul>
+    </div>
+
+
+</aside>
 <!--BANNER-->
 <section class="container-banner">
 <div class="banner">
@@ -523,5 +549,24 @@
     </div>
     </div>
     </footer>
+<!--COOKIE-->
+<div class="overlay-dark"></div>
+<button class="cookie-consent">Manage Consent</button>
+<div class="container-cookie">
+    <div class="cookie-content">
+        <h1>Cookies Policy</h1>
+        <p>Our website uses cookies. This helps us provide you with a good experience on our website. 
+        To see what cookies we use and what they do, and to opt-in on non-essential cookies click "change settings". 
+        For a detailed explanation, click on <a href="#">"Privacy Policy"</a> otherwise click "Accept Cookies" to enter.</p>
+    <div class="container-cookie-button">
+        <button id="change-settings-cookie">Change Settings</button>
+        <button id="accept-cookies-cookie">Accept Cookies</button>
+    </div>
+    </div>
+</div>
+
+
+    <script src="javascript/sticky-header.js"></script>
+    <script src="javascript/cookie-popup.js"></script>
 </body>
 </html>

@@ -1,0 +1,85 @@
+// Cookie
+
+.cookie-consent {
+    color: #fff;
+    background-color: #999aa2;
+    border-color: #999aa2;
+    box-shadow: 0 3px 35px rgba(0,0,0,.1);
+    position: fixed;
+    line-height: 22px;
+    z-index: 99;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    background: #75788a;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #fff;
+    border: solid #75788a;
+    border-width: 1px 1px 0 0;
+    border-radius: 0;
+    border-top-right-radius: 10px;
+    padding: 0 10px;
+    cursor: pointer;
+    font-size: .8rem;
+}
+
+.container-cookie{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-color: rgba(0,0,0,.7);
+//    display: flex;
+    outline: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+        .cookie-content{
+            background-color: #fff;
+            border-radius: 3px;
+            h1 {
+                font-size: 1.625rem;
+                border-bottom: 1px solid #e5e5e5;
+                padding: 20px;
+            }
+            p {
+                padding: 20px;
+                line-height: 1.875rem;
+                margin-bottom: 25px;
+                font-family: Poppins,sans-serif;
+                font-size: 1rem;
+                letter-spacing: .4px;
+                color: #666;
+                a {
+                    color: #333645;
+                &:hover{
+                    text-decoration: underline;
+                    }
+                }
+            }
+             .container-cookie-button {
+                display: flex;
+                flex-direction: column; // MAKE ROW AT WHATEVER BRUV
+                border-top: 1px solid #e5e5e5;
+                padding: 20px;
+                #change-settings-cookie {
+                    @include welcometo-button (20px 10px, $cookie-settings, $cookie-settings-hover);
+                    width: 100%;
+                    //width: 45%;
+                    flex: 1;
+                }
+                #accept-cookies-cookie {
+                    @include welcometo-button (20px 10px, $web-design, $web-designdark);
+                    width: 100%;
+                    //width: 45%;
+                    flex: 1;
+                }
+            }
+        }
+    }
