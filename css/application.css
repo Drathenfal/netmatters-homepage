@@ -780,6 +780,12 @@ h3 {
   border-radius: 3px;
 }
 
+@media (min-width: 767px) {
+  .container-cookie .cookie-content {
+    width: 600px;
+  }
+}
+
 .container-cookie .cookie-content h1 {
   font-size: 1.625rem;
   border-bottom: 1px solid #e5e5e5;
@@ -811,6 +817,12 @@ h3 {
   padding: 20px;
 }
 
+@media (min-width: 767px) {
+  .container-cookie .cookie-content .container-cookie-button {
+    flex-direction: row;
+  }
+}
+
 .container-cookie .cookie-content .container-cookie-button #change-settings-cookie {
   display: inline-block;
   white-space: nowrap;
@@ -832,6 +844,12 @@ h3 {
   cursor: pointer;
 }
 
+@media (min-width: 767px) {
+  .container-cookie .cookie-content .container-cookie-button #change-settings-cookie {
+    width: 45%;
+  }
+}
+
 .container-cookie .cookie-content .container-cookie-button #accept-cookies-cookie {
   display: inline-block;
   white-space: nowrap;
@@ -851,6 +869,12 @@ h3 {
 .container-cookie .cookie-content .container-cookie-button #accept-cookies-cookie:hover {
   background-color: #79539a;
   cursor: pointer;
+}
+
+@media (min-width: 767px) {
+  .container-cookie .cookie-content .container-cookie-button #accept-cookies-cookie {
+    width: 45%;
+  }
 }
 
 .container-banner {
@@ -2557,4 +2581,57 @@ h4 {
 
 .dropdown-link a:hover {
   text-decoration: underline;
+}
+
+.hamburger {
+  display: block;
+  background-color: #333645;
+  padding: 10px 15px;
+  border-radius: 3px;
+  margin-left: 20px;
+}
+
+.hamburger .bar {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 6px auto;
+}
+
+.hamburger:hover {
+  cursor: pointer;
+  background-color: #212330;
+}
+
+.ham-bar {
+  width: 70%;
+  height: 4px;
+  border-radius: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform .6s, opacity .8s, top .6s;
+}
+
+.bar-top {
+  top: 25%;
+}
+
+.bar-bottom {
+  top: 75%;
+}
+
+.hamburger-menu.active .bar-top {
+  transform: translate(-50%, -50%) rotate(-315deg);
+  top: 50%;
+}
+
+.hamburger-menu.active .bar-mid {
+  opacity: 0;
+}
+
+.hamburger-menu.active .bar-bottom {
+  transform: translate(-50%, -50%) rotate(-225deg);
+  top: 50%;
 }
