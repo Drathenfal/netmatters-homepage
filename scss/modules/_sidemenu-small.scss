@@ -1,2 +1,48 @@
 // Side Menu small
 
+.Small-nav-menu {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    background-color: $dark-text;
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    text-decoration: none;
+    padding: 19px 0 18px;
+        i {
+            width: 100%;
+        }
+        .fa-laptop {
+            color: $bespoke;
+        }
+        .fa-computer {
+            color: $it-support;
+        }
+        .fa-chart-simple {
+            color: $digital-marketing;
+        }
+        .fa-phone-volume{
+            color: $telecoms-services
+        }
+        .fa-code {
+            color: $web-design;
+        }
+        .fa-shield {
+            color: $cyber-security;
+        }
+        .fa-graduation-cap {
+            color: $developer-course
+        }
+        small {
+            font-size: .625rem;
+            padding-bottom: 1px;
+            width: 100%;
+        }
+        p {
+            width: 100%; 
+        }
+    .sub-menu li {
+        background-color: $dark-nav;
+    }
+}
