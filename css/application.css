@@ -74,8 +74,7 @@ textarea {
 }
 
 .pad21 {
-  padding-top: 21px;
-  padding-bottom: 21px;
+  padding: 21px;
 }
 
 .centered-mini-footer {
@@ -2584,6 +2583,11 @@ h4 {
 }
 
 .Small-nav-menu {
+  width: 280px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1500;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -2592,11 +2596,23 @@ h4 {
   text-transform: uppercase;
   font-size: 1.125rem;
   text-decoration: none;
-  padding: 19px 0 18px;
+}
+
+.Small-nav-menu .small-nav-header {
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  outline: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+}
+
+.Small-nav-menu .small-nav-header:hover {
+  background-color: rgba(255, 255, 255, 0.05);
 }
 
 .Small-nav-menu i {
   width: 100%;
+  font-size: 24px;
 }
 
 .Small-nav-menu .fa-laptop {
@@ -2637,8 +2653,16 @@ h4 {
   width: 100%;
 }
 
+.Small-nav-menu .sub-menu {
+  border-radius: 3px;
+  margin-bottom: 1.5rem;
+}
+
 .Small-nav-menu .sub-menu li {
   background-color: #262834;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 3px;
+  padding: 12px;
 }
 
 .hamburger {

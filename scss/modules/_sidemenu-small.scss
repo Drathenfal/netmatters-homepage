@@ -1,6 +1,11 @@
 // Side Menu small
 
 .Small-nav-menu {
+    width: 280px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1500;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -9,9 +14,19 @@
     text-transform: uppercase;
     font-size: 1.125rem;
     text-decoration: none;
-    padding: 19px 0 18px;
+        .small-nav-header {
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+            border: 1px solid hsla(0, 0%, 100%, 0.1);
+            outline: 1px solid rgba(0, 0, 0, 0.25);
+            border-radius: 3px;
+            &:hover {
+                background-color: hsla(0, 0%, 100%, 0.05);
+        }
+        }
         i {
             width: 100%;
+            font-size: 24px;
         }
         .fa-laptop {
             color: $bespoke;
@@ -42,7 +57,14 @@
         p {
             width: 100%; 
         }
-    .sub-menu li {
-        background-color: $dark-nav;
-    }
+        .sub-menu {
+            border-radius: 3px;
+            margin-bottom: 1.5rem;
+        }
+        .sub-menu li {
+            background-color: $dark-nav;
+            border-top: 1px solid hsla(0, 0%, 100%, 0.05);
+            border-radius: 3px;
+            padding: 12px;
+        }
 }
