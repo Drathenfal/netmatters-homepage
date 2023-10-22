@@ -1,8 +1,13 @@
 // Side Menu small
 
+#money{
+    
+}
+
 .Small-nav-menu {
+
     width: 280px;
-    position: fixed;
+    //position: fixed; // change back to fixed
     top: 0;
     right: 0;
     z-index: 1500;
@@ -66,5 +71,25 @@
             border-top: 1px solid hsla(0, 0%, 100%, 0.05);
             border-radius: 3px;
             padding: 12px;
+        }
+        .small-nav-bottom{
+            .small-nav-header2{
+                &:hover {background-color: hsla(0,0%,100%,.05);}
+            }
+            li{
+                display: flex;
+                padding: 20px;
+                border-top: 1px solid hsla(0,0%,100%,.05);
+            }
+            .sub-menu2{
+                li{
+                    padding: 15px 20px;
+                    font-size: .875rem;
+                    background-color: rgba(0,0,0,.25);
+                }
+                li a::before {
+                         content: "»";
+                    }
+            }
         }
 }

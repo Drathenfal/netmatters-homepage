@@ -13,7 +13,7 @@
 </head>
 
 
-<body>
+<body class="content">
     <div class="placeholder"></div>
 <!--HEADER-->
 <header class="header">
@@ -175,10 +175,10 @@
 </div>
 </nav>
 </header>
-<!--SIDE MENU-->
-<aside>
-<div class="overlay-dark"></div>
-    <div class="Small-nav-menu pad21">
+<div class="dark-overlay-menu"></div>
+<!--SMALL SIDE MENU-->
+<aside class="side-menu-1">
+    <div id="top-part-nav" class="small-nav-menu pad21">
         <ul>
             <a href="#"><li class="small-nav-header">Contact Us</li></a>
             <a href="#"><li class="small-nav-header"><span><i class="fa-solid fa-laptop"></i></span><small>Bespoke</small><p>Software</p></li></a>
@@ -262,56 +262,60 @@
                     </ul>
                 </div>
             </ul>
-            <ul>
-                <li><a href="#">Our Work</a></li>
-                <div class="container sub-menu">
+        </div>
+        <div class="small-nav-menu">
+            <ul class="small-nav-bottom">
+                <li class="small-nav-header2"><a href="#">Our Work</a></li>
+                <div class="sub-menu2">
                     <ul>
-                        <li><a href="#">Case studies</a></li>
-                        <li><a href="#">Our it clients</a></li>
+                        <li><a href="#">&nbsp;&nbsp;Case studies</a></li>
+                        <li><a href="#">&nbsp;&nbsp;Our it clients</a></li>
                     </ul>
                 </div>
-                <li><a href="#">Our knowledge</a></li>
-                <div class="container sub-menu">
+                <li class="small-nav-header2"><a href="#">Our knowledge</a></li>
+                <div class="sub-menu2">
                     <ul>
-                        <li><a href="#">Technologies</a></li>
-                        <li><a href="#">Industries</a></li>
-                        <li><a href="#">News</a></li>
-                        <li><a href="#">Insights</a></li>
+                        <li><a href="#">&nbsp;&nbsp;Technologies</a></li>
+                        <li><a href="#">&nbsp;&nbsp;Industries</a></li>
+                        <li><a href="#">&nbsp;&nbsp;News</a></li>
+                        <li><a href="#">&nbsp;&nbsp;Insights</a></li>
                     </ul>
                 </div>
-                <li><a href="#">Training</a></li>
-                <div class="container sub-menu">
+                <li class="small-nav-header2"><a href="#">Training</a></li>
+                <div class="sub-menu2">
                     <ul>
-                        <li><a href="#">Train for a career in tech</a></li>
-                        <li><a href="#">Skills bootcamp</a></li>
-                        <li><a href="#">SCS frequently asked questions</a></li>
-                        <li><a href="#">Scion collaborators</a></li>
+                        <li><a href="#">&nbsp;&nbsp;Train for a career in tech</a></li>
+                        <li><a href="#">&nbsp;&nbsp;Skills bootcamp</a></li>
+                        <li><a href="#">&nbsp;&nbsp;SCS frequently asked questions</a></li>
+                        <li><a href="#">&nbsp;&nbsp;Scion collaborators</a></li>
                     </ul>
                 </div>
-                <li><a href="#">Our company</a></li>
-                <div class="container sub-menu">
+                <li class="small-nav-header2"><a href="#">Our company</a></li>
+                <div class="sub-menu2">
                     <ul>
-                        <li><a href="#">Why choose us?</a></li>
-                        <li><a href="#">Our culture</a></li>
-                        <li><a href="#">Our team</a></li>
-                        <li><a href="#">Our careers</a></li>
-                        <li><a href="#">Our benefits</a></li>
+                        <li><a href="#">&nbsp;&nbsp;Why choose us?</a></li>
+                        <li><a href="#">&nbsp;&nbsp;Our culture</a></li>
+                        <li><a href="#">&nbsp;&nbsp;Our team</a></li>
+                        <li><a href="#">&nbsp;&nbsp;Our careers</a></li>
+                        <li><a href="#">&nbsp;&nbsp;Our benefits</a></li>
                     </ul>
                 </div>
-                <li><a href="#">Contact us</a></li>
-                <div class="container sub-menu">
+                <li class="small-nav-header2"><a href="#">Contact us</a></li>
+                <div class="sub-menu2">
                     <ul>
-                        <li><a href="#">London office</a></li>
-                        <li><a href="#">Cambridge office</a></li>
-                        <li><a href="#">Wymondham office</a></li>
-                        <li><a href="#">Great Yarmouth office</a></li>
+                        <li><a href="#">&nbsp;&nbsp;London office</a></li>
+                        <li><a href="#">&nbsp;&nbsp;Cambridge office</a></li>
+                        <li><a href="#">&nbsp;&nbsp;Wymondham office</a></li>
+                        <li><a href="#">&nbsp;&nbsp;Great Yarmouth office</a></li>
                     </ul>
                 </div>
-                <li><a href="#">Covid risk assessments</a></li>
-                <li><a href="#"><i class="fa-solid fa-angles-right"></i>&nbsp;&nbsp;&nbsp;Support</a></li>
+                <li class="small-nav-header2"><a href="#">Covid risk assessments</a></li>
+                <li class="small-nav-header2"><a href="#">Support</a></li>
             </ul>
-    </div>
-
+        </div>
+</aside>
+<!--LARGE SIDE MENU-->
+<aside class="side-menu-2">
 
 </aside>
 <!--BANNER-->
@@ -679,7 +683,7 @@
     </div>
 </div>
 
-
+    <script src="javascript/hamburger-menu.js"></script>
     <script src="javascript/sticky-header.js"></script>
     <script src="javascript/cookie-popup.js"></script>
 </body>
