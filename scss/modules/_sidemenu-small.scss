@@ -1,11 +1,17 @@
 // Side Menu small
 
-#money{
-    
+#top-part-nav{
+    @include mq(large){
+        display: none;
+    }
+}
+@media (max-width: 992px) {
+    #hidden-services {
+        display: none;
+    }
 }
 
-.Small-nav-menu {
-
+.small-nav-menu {
     width: 280px;
     //position: fixed; // change back to fixed
     top: 0;
