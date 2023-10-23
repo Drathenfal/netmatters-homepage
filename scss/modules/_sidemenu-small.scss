@@ -13,9 +13,9 @@
 
 .small-nav-menu {
     width: 280px;
-    //position: fixed; // change back to fixed
+    position: fixed; // change back to fixed
     top: 0;
-    right: 0;
+    right: -280px;  //-280px
     z-index: 1500;
     text-align: center;
     display: flex;
@@ -25,6 +25,8 @@
     text-transform: uppercase;
     font-size: 1.125rem;
     text-decoration: none;
+    height: 100%;
+    overflow-y: auto;
         .small-nav-header {
             padding: 1rem;
             margin-bottom: 1.5rem;
