@@ -11,7 +11,7 @@
     }
 }
 
-.small-nav-menu {
+.side-menu-1 {
     width: 280px;
     position: fixed; // change back to fixed
     top: 0;
@@ -27,6 +27,10 @@
     text-decoration: none;
     height: 100%;
     overflow-y: auto;
+    li {
+        &:hover {cursor: pointer;}
+    }
+.small-nav-menu {
         .small-nav-header {
             padding: 1rem;
             margin-bottom: 1.5rem;
@@ -100,4 +104,5 @@
                     }
             }
         }
+}
 }

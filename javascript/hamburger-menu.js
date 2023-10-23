@@ -2,7 +2,7 @@
 
 document.addEventListener('DOMContentLoaded', function () {
     const hamburger = document.querySelector('.hamburger');
-    const sideMenu = document.querySelector('.small-nav-menu');
+    const sideMenu = document.querySelector('.side-menu-1');
     const darkOverlay = document.querySelector('.dark-overlay-menu');
     const wrapper = document.querySelector('.wrapper'); // Add the class 'wrapper' to the wrapper element in your HTML
 

@@ -2599,7 +2599,7 @@ h4 {
   }
 }
 
-.small-nav-menu {
+.side-menu-1 {
   width: 280px;
   position: fixed;
   top: 0;
@@ -2617,7 +2617,11 @@ h4 {
   overflow-y: auto;
 }
 
-.small-nav-menu .small-nav-header {
+.side-menu-1 li:hover {
+  cursor: pointer;
+}
+
+.side-menu-1 .small-nav-menu .small-nav-header {
   padding: 1rem;
   margin-bottom: 1.5rem;
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -2625,82 +2629,82 @@ h4 {
   border-radius: 3px;
 }
 
-.small-nav-menu .small-nav-header:hover {
+.side-menu-1 .small-nav-menu .small-nav-header:hover {
   background-color: rgba(255, 255, 255, 0.05);
 }
 
-.small-nav-menu i {
+.side-menu-1 .small-nav-menu i {
   width: 100%;
   font-size: 24px;
 }
 
-.small-nav-menu .fa-laptop {
+.side-menu-1 .small-nav-menu .fa-laptop {
   color: #67809f;
 }
 
-.small-nav-menu .fa-computer {
+.side-menu-1 .small-nav-menu .fa-computer {
   color: #4183d7;
 }
 
-.small-nav-menu .fa-chart-simple {
+.side-menu-1 .small-nav-menu .fa-chart-simple {
   color: #2ecc71;
 }
 
-.small-nav-menu .fa-phone-volume {
+.side-menu-1 .small-nav-menu .fa-phone-volume {
   color: #d64541;
 }
 
-.small-nav-menu .fa-code {
+.side-menu-1 .small-nav-menu .fa-code {
   color: #926fb1;
 }
 
-.small-nav-menu .fa-shield {
+.side-menu-1 .small-nav-menu .fa-shield {
   color: #f62459;
 }
 
-.small-nav-menu .fa-graduation-cap {
+.side-menu-1 .small-nav-menu .fa-graduation-cap {
   color: #ce4125;
 }
 
-.small-nav-menu small {
+.side-menu-1 .small-nav-menu small {
   font-size: .625rem;
   padding-bottom: 1px;
   width: 100%;
 }
 
-.small-nav-menu p {
+.side-menu-1 .small-nav-menu p {
   width: 100%;
 }
 
-.small-nav-menu .sub-menu {
+.side-menu-1 .small-nav-menu .sub-menu {
   border-radius: 3px;
   margin-bottom: 1.5rem;
 }
 
-.small-nav-menu .sub-menu li {
+.side-menu-1 .small-nav-menu .sub-menu li {
   background-color: #262834;
   border-top: 1px solid rgba(255, 255, 255, 0.05);
   border-radius: 3px;
   padding: 12px;
 }
 
-.small-nav-menu .small-nav-bottom .small-nav-header2:hover {
+.side-menu-1 .small-nav-menu .small-nav-bottom .small-nav-header2:hover {
   background-color: rgba(255, 255, 255, 0.05);
 }
 
-.small-nav-menu .small-nav-bottom li {
+.side-menu-1 .small-nav-menu .small-nav-bottom li {
   display: flex;
   padding: 20px;
   border-top: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-.small-nav-menu .small-nav-bottom .sub-menu2 li {
+.side-menu-1 .small-nav-menu .small-nav-bottom .sub-menu2 li {
   padding: 15px 20px;
   font-size: .875rem;
   background-color: rgba(0, 0, 0, 0.25);
 }
 
-.small-nav-menu .small-nav-bottom .sub-menu2 li a::before {
+.side-menu-1 .small-nav-menu .small-nav-bottom .sub-menu2 li a::before {
   content: "»";
 }
 
