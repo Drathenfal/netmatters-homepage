@@ -1,6 +1,5 @@
 //cookie
 
-
 document.addEventListener("DOMContentLoaded", function() {
     const overlay = document.querySelector('.overlay-dark');
     const containerCookie = document.querySelector('.container-cookie');
@@ -36,21 +35,17 @@ document.addEventListener("DOMContentLoaded", function() {
         const scrollPosition = window.scrollY;
 
         // Add styles to the body to fix its position
-        document.body.style.position = 'fixed';
-        document.body.style.top = `-${scrollPosition}px`;
+        document.body.style.overflow = 'hidden';
+        document.body.style.position = 'relative';
+        document.body.style.height = '100vh';
     }
 
     // Function to enable scrolling
     function enableScroll() {
-        // Retrieve the scroll position from the body
-        const scrollPosition = parseInt(document.body.style.top || '0', 10);
-
         // Remove the inline styles from the body
+        document.body.style.overflow = '';
         document.body.style.position = '';
-        document.body.style.top = '';
-
-        // Scroll the page back to the original position
-        window.scrollTo(0, -scrollPosition);
+        document.body.style.height = '';
     }
 
     manageConsentButton.addEventListener('click', function() {
