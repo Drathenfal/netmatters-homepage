@@ -109,6 +109,10 @@
     opacity: 1;
   }
 
+  .slick-dots li button {
+    text-indent: -9999px;
+ }
+
   // Tried centuring banner text but wont work
 //   display: flex !important;
 //   flex-direction: column;

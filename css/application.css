@@ -1102,6 +1102,10 @@ h3 {
   opacity: 1;
 }
 
+.slick-dots li button {
+  text-indent: -9999px;
+}
+
 footer {
   background-color: #323544;
   color: white;
