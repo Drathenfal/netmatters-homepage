@@ -1,5 +1,29 @@
 //header
 
+.header {
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 900;
+}
+
+.keep-bg-white {
+    background-color: #fff;
+}
+
+.slide-down {
+    animation: slideDown 1.5s forwards;
+}
+
+@keyframes slideDown {
+    from {
+        top: -212px; /* Start position above the viewport */
+    }
+    to {
+        top: 0; /* Final position at the top of the viewport */
+    }
+}
+
 .logo-container{
     flex-grow: 1;
     @include mq(medium){

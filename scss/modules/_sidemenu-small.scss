@@ -1,0 +1,108 @@
+// Side Menu small
+
+#top-part-nav{
+    @include mq(large){
+        display: none;
+    }
+}
+@media (max-width: 992px) {
+    #hidden-services {
+        display: none;
+    }
+}
+
+.side-menu-1 {
+    width: 280px;
+    position: fixed; // change back to fixed
+    top: 0;
+    right: -280px;  //-280px
+    z-index: 1500;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    background-color: $dark-text;
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    text-decoration: none;
+    height: 100%;
+    overflow-y: auto;
+    li {
+        &:hover {cursor: pointer;}
+    }
+.small-nav-menu {
+        .small-nav-header {
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+            border: 1px solid hsla(0, 0%, 100%, 0.1);
+            outline: 1px solid rgba(0, 0, 0, 0.25);
+            border-radius: 3px;
+            &:hover {
+                background-color: hsla(0, 0%, 100%, 0.05);
+        }
+        }
+        i {
+            width: 100%;
+            font-size: 24px;
+        }
+        .fa-laptop {
+            color: $bespoke;
+        }
+        .fa-computer {
+            color: $it-support;
+        }
+        .fa-chart-simple {
+            color: $digital-marketing;
+        }
+        .fa-phone-volume{
+            color: $telecoms-services
+        }
+        .fa-code {
+            color: $web-design;
+        }
+        .fa-shield {
+            color: $cyber-security;
+        }
+        .fa-graduation-cap {
+            color: $developer-course
+        }
+        small {
+            font-size: .625rem;
+            padding-bottom: 1px;
+            width: 100%;
+        }
+        p {
+            width: 100%; 
+        }
+        .sub-menu {
+            border-radius: 3px;
+            margin-bottom: 1.5rem;
+        }
+        .sub-menu li {
+            background-color: $dark-nav;
+            border-top: 1px solid hsla(0, 0%, 100%, 0.05);
+            border-radius: 3px;
+            padding: 12px;
+        }
+        .small-nav-bottom{
+            .small-nav-header2{
+                &:hover {background-color: hsla(0,0%,100%,.05);}
+            }
+            li{
+                display: flex;
+                padding: 20px;
+                border-top: 1px solid hsla(0,0%,100%,.05);
+            }
+            .sub-menu2{
+                li{
+                    padding: 15px 20px;
+                    font-size: .875rem;
+                    background-color: rgba(0,0,0,.25);
+                }
+                li a::before {
+                         content: "»";
+                    }
+            }
+        }
+}
+}

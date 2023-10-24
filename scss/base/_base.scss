@@ -3,7 +3,9 @@
 * {
     box-sizing: border-box;
 }
-
+.content{
+    display: none;
+}
 .container {
     margin-right: auto;
     margin-left: auto;
@@ -25,9 +27,13 @@
     padding-bottom: 50px;
 }
 
-.padtwenty {
+.pad20 {
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.pad21{
+    padding: 21px; 
 }
 
 .centered-mini-footer {

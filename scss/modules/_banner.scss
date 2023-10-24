@@ -1,29 +1,27 @@
 //Banner
 
-.container-banner {
-    background-image: url("../images/main-netmatters/netmatters-office.png");
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: center;
+.banner {
+    position: relative;
+    padding: 0;
+    width: 100%;
+    height: 550px;
+    max-height: 550px;
 }
 
-.banner {
-    backdrop-filter: brightness(50%);
-        @include mq(large){
-            backdrop-filter: brightness(100%);
-    } 
-    p {
-        color:#fff;
-        margin-bottom: 0.375rem;
-        font-size: 1.25rem;
-        line-height: 1.75rem;
-        font-weight: $font-weight--bold;
-        margin: 0 0 10px;
-        @include mq(large){
-            font-size: 1.625rem;
-            line-height: 2.5rem;
-    } 
-    }
+.banner-slide {
+    position: relative;
+    height: 550px;
+    max-height: 550px;
+}
+
+.banner-text {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    z-index: 1;
+    text-align: center;
     h1 {
         font-size: 2.5rem;
         line-height: 3rem;
@@ -35,21 +33,89 @@
             line-height: 5rem;
     } 
     }
-    .banner-button {
-        color: #fff;
-        text-transform: uppercase;
-        line-height: 50px;
+        p {
+        color:#fff;
+        margin-bottom: 0.375rem;
         font-size: 1.25rem;
-        border-radius: 3px;
-        padding: 5px 20px;
-        text-align: center;
-        background-color: #926fb1;
-        &:hover {
-            background-color: #7e57a0;
-            cursor: pointer;
-        }
+        line-height: 1.75rem;
+        font-weight: $font-weight--bold;
+        margin: 0 0 10px;
+        @include mq(large){
+            font-size: 1.625rem;
+            line-height: 2.5rem;
+    } 
+    }
+    .banner-button-hp {
+        @include banner-button($web-design,$web-designdark)
+    }
+    .banner-button-bs {
+        @include banner-button($bespoke,$bespokedark)
+    }
+    .banner-button-it {
+        @include banner-button($it-support,$it-supportdark)
+    }
+    .banner-button-dm {
+        @include banner-button($digital-marketing,$digital-marketingdark)
+    }
+    .banner-button-tc {
+        @include banner-button($telecoms-services,$telecoms-servicesdark)
+    }
+    .banner-button-wd {
+        @include banner-button($web-design,$web-designdark)
+    }
+    .banner-button-cs {
+        @include banner-button($cyber-security,$cyber-securitydark)
     }
 }
 
+.banner img {
+    width: 100%;
+    height: 550px;
+    max-height: 550px;
+}
 
+.banner-slide img {
+    filter: brightness(50%);
+    object-fit: cover;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .slick-dots li {
+    margin: 0 5px;
+  }
+  
+  .slick-dots li button {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: opacity 0.5s;
+  }
+
+  .slick-dots li.slick-active button {
+    opacity: 1;
+  }
+
+  .slick-dots li button {
+    text-indent: -9999px;
+ }
+
+  // Tried centuring banner text but wont work
+//   display: flex !important;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
 

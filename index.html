@@ -10,13 +10,169 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="https://kit.fontawesome.com/b1ba3c938d.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 </head>
 
 
 <body>
+    <!--SMALL SIDE MENU-->
+<div class="dark-overlay-menu"></div>
+<aside class="side-menu-1">
+    <div id="top-part-nav" class="small-nav-menu pad21">
+        <ul>
+            <li class="small-nav-header"><a href="#">Contact Us</a></li>
+            <li class="small-nav-header"><a href="#"><span><i class="fa-solid fa-laptop"></i></span><small>Bespoke</small><p>Software</p></a></li>
+                <div class="sub-menu">
+                    <ul class="ul-bs">
+                        <li><a href="#">Bespoke Crm</a></li>
+                        <li><a href="#">Business Automation</a></li>
+                        <li><a href="#">Software Integrations</a></li>
+                        <li><a href="#">Mobile App Development</a></li>
+                        <li><a href="#">Bespoke Databases</a></li>
+                        <li><a href="#">Sharepoint Development</a></li>
+                        <li><a href="#">Operational Systems</a></li>
+                        <li><a href="#">Business Central Implementation</a></li>
+                        <li><a href="#">Internet of Thing (IOT) Software</a></li>
+                        <li><a href="#">Customer Portal Development</a></li>
+                        <li><a href="#">Reporting Hub</a></li>
+                    </ul>
+                </div>
+                <li class="small-nav-header"><a href="#"><span><i class="fa-solid fa-computer"></i></span><small>IT</small><p>Support</p></a></li>
+                <div class="sub-menu">
+                    <ul>
+                        <li><a href="#">Managed It Support</a></li>
+                        <li><a href="#">Business It Support</a></li>
+                        <li><a href="#">Office 365 for business</a></li>
+                        <li><a href="#">It Consultancy</a></li>
+                        <li><a href="#">Cloud Service provider</a></li>
+                        <li><a href="#">Data backup & Disaster recovery</a></li>
+                    </ul>
+                </div>
+                <li class="small-nav-header"><a href="#"><span><i class="fa-solid fa-chart-simple"></i></span><small>Digital</small><p>Marketing</p></a></li>
+                <div class="sub-menu">
+                    <ul>
+                        <li><a href="#">Search engine optimisation (SEO)</a></li>
+                        <li><a href="#">Pay per click advertising (PPC)</a></li>
+                        <li><a href="#">Conversion rate optimisation (CRO)</a></li>
+                        <li><a href="#">Email marketing</a></li>
+                        <li><a href="#">Social media marketing</a></li>
+                        <li><a href="#">Content marketing</a></li>
+                    </ul>
+                </div>
+                <li class="small-nav-header"><a href="#"><span><i class="fa-solid fa-phone-volume"></i></span><small>Telecoms</small><p>Services</p></a></li>
+                <div class="sub-menu">
+                    <ul>
+                        <li><a href="#">Business mobile</a></li>
+                        <li><a href="#">Hosted Voip provider</a></li>
+                        <li><a href="#">Business voip systems</a></li>
+                        <li><a href="#">Businesss Broadband</a></li>
+                        <li><a href="#">Leased lines provider</a></li>
+                        <li><a href="#">3cx Systems</a></li>
+                    </ul>
+                </div>
+                <li class="small-nav-header"><a href="#"><span><i class="fa-solid fa-code"></i></span><small>Web</small><p>Design</p></a></li>
+                <div class="sub-menu">
+                    <ul>
+                        <li><a href="#">Bespoke website design</a></li>
+                        <li><a href="#">Ecommerce website design</a></li>
+                        <li><a href="#">Pay monthly websites</a></li>
+                        <li><a href="#">Branding & design</a></li>
+                        <li><a href="#">Mobile App development</a></li>
+                        <li><a href="#">Web hosting</a></li>
+                    </ul>
+                </div>
+                <li class="small-nav-header"><a href="#"><span><i class="fa-solid fa-shield"></i></span><small>Cyber</small><p>Security</p></a></li>
+                <div class="sub-menu">
+                    <ul>
+                        <li><a href="#">Cyber security assessment</a></li>
+                        <li><a href="#">Cyber security Management</a></li>
+                        <li><a href="#">Cyber penetration testing</a></li>
+                        <li><a href="#">Cyber essentials certification</a></li>
+                        <li><a href="#">PCI compliance</a></li>
+                        <li><a href="#">Hacking prevention</a></li>
+                    </ul>
+                </div>
+                <li class="small-nav-header"><a href="#"><span><i class="fa-solid fa-graduation-cap"></i></span><small>Developer</small><p>Course</p></a></li>
+                <div class="sub-menu">
+                    <ul>
+                        <li><a href="#">Train for a career in tech</a></li>
+                        <li><a href="#">Skills Bootcamp</a></li>
+                        <li><a href="#">Scion Scheme frequently asked questions</a></li>
+                        <li><a href="#">Scion collaborators</a></li>
+                    </ul>
+                </div>
+            </ul>
+        </div>
+        <div  class="small-nav-menu">
+            <ul class="small-nav-bottom">
+                <li id="hidden-services" class="small-nav-header2"><a href="#">services</a></li>
+                <div class="sub-menu2">
+                    <ul id="hidden-services">
+                        <li><a href="#">&nbsp;&nbsp;Bespoke Software</a></li>
+                        <li><a href="#">&nbsp;&nbsp;IT Support</a></li>
+                        <li><a href="#">&nbsp;&nbsp;Digital Marketing</a></li>
+                        <li><a href="#">&nbsp;&nbsp;Telecomes Services</a></li>
+                        <li><a href="#">&nbsp;&nbsp;Web Design</a></li>
+                        <li><a href="#">&nbsp;&nbsp;Cyber Security</a></li>
+                    </ul>
+                </div>
+                <li class="small-nav-header2"><a href="#">Our Work</a></li>
+                <div class="sub-menu2">
+                    <ul>
+                        <li><a href="#">&nbsp;&nbsp;Case studies</a></li>
+                        <li><a href="#">&nbsp;&nbsp;Our it clients</a></li>
+                    </ul>
+                </div>
+                <li class="small-nav-header2"><a href="#">Our knowledge</a></li>
+                <div class="sub-menu2">
+                    <ul>
+                        <li><a href="#">&nbsp;&nbsp;Technologies</a></li>
+                        <li><a href="#">&nbsp;&nbsp;Industries</a></li>
+                        <li><a href="#">&nbsp;&nbsp;News</a></li>
+                        <li><a href="#">&nbsp;&nbsp;Insights</a></li>
+                    </ul>
+                </div>
+                <li class="small-nav-header2"><a href="#">Training</a></li>
+                <div class="sub-menu2">
+                    <ul>
+                        <li><a href="#">&nbsp;&nbsp;Train for a career in tech</a></li>
+                        <li><a href="#">&nbsp;&nbsp;Skills bootcamp</a></li>
+                        <li><a href="#">&nbsp;&nbsp;SCS frequently asked questions</a></li>
+                        <li><a href="#">&nbsp;&nbsp;Scion collaborators</a></li>
+                    </ul>
+                </div>
+                <li class="small-nav-header2"><a href="#">Our company</a></li>
+                <div class="sub-menu2">
+                    <ul>
+                        <li><a href="#">&nbsp;&nbsp;Why choose us?</a></li>
+                        <li><a href="#">&nbsp;&nbsp;Our culture</a></li>
+                        <li><a href="#">&nbsp;&nbsp;Our team</a></li>
+                        <li><a href="#">&nbsp;&nbsp;Our careers</a></li>
+                        <li><a href="#">&nbsp;&nbsp;Our benefits</a></li>
+                    </ul>
+                </div>
+                <li class="small-nav-header2"><a href="#">Contact us</a></li>
+                <div class="sub-menu2">
+                    <ul>
+                        <li><a href="#">&nbsp;&nbsp;London office</a></li>
+                        <li><a href="#">&nbsp;&nbsp;Cambridge office</a></li>
+                        <li><a href="#">&nbsp;&nbsp;Wymondham office</a></li>
+                        <li><a href="#">&nbsp;&nbsp;Great Yarmouth office</a></li>
+                    </ul>
+                </div>
+                <li class="small-nav-header2"><a href="#">Covid risk assessments</a></li>
+                <li class="small-nav-header2"><a href="#">Support</a></li>
+            </ul>
+        </div>
+</aside>
+<div class="wrapper">
 <!--HEADER-->
-<header class="container padtwenty">
-
+<div class="placeholder"></div>
+<header class="header">
+    <div class="keep-bg-white">
+<div class="container pad20">
 <div class="header-row">
     <div class="logo-container"><a href="#"><img class="header-logo" src="images/main-netmatters/netmatters-logo-darkgrey.png" alt="Netmatters Logo"></a></div>
     <a class="phone-icon" href="#" target="_blank"><i class="fa-solid fa-phone"></i></a>
@@ -24,8 +180,7 @@
     <a class="contact-button" href="#" target="_blank"><i class="fa-regular fa-paper-plane"></i> Contact</a>
     <div class="search-container2">
         <form class="search-bar2">
-        <input type="text" placeholder="Search...">
-        
+        <input type="text" placeholder="Search..."> 
         </form>
         <button class="search-button2" type="submit"><i class="fa fa-search"></i></button>
     </div>
@@ -35,18 +190,15 @@
         <div class="bar"></div>
       </div>
 </div>
-<div class="search-container">
+<div class="search-container"ui>
 <form class="search-bar">
 <input type="text" placeholder="Search...">
-<button class="search-button" type="submit"><i class="fa fa-search"></i></button>
-</form>
 </div>
-</header>
-
-<!--NAV-->
+</div>
+</div>
+<!--Nav-->
 <nav class="nav-bar">
-    <div class="container">
-    
+    <div class="container"> 
 <ul class="nav-bar-main">
 
     <li class="bs-nav"><a href="#">
@@ -174,14 +326,52 @@
 </ul>
 </div>
 </nav>
+</header>
 <!--BANNER-->
-<section class="container-banner">
 <div class="banner">
-    <h1>The East Of England's Leading Technology Company</h1>
-    <p>Performance-driven digital and technology services with complete transparency.</p>
-    <a class="banner-button" href="#">Why choose us? <i class="fa-solid fa-arrow-right"></i></a>
+    <div class="banner-slide">
+        <img src="images/banner/netmatters-office.png" alt="Image 1">
+        <div class="banner-text"><h1>The East Of England's Leading Technology Company</h1>
+            <p>Performance-driven digital and technology services<br> with complete transparency.</p>
+            <a class="banner-button-hp" href="#">Why choose us? <i class="fa-solid fa-arrow-right"></i></a></div>
+    </div>
+    <div class="banner-slide">
+        <img src="images/banner/bespoke-software.jpeg" alt="Image 2">
+        <div class="banner-text"><h1>Bespoke Software</h1>
+            <p>Delivering expert bespoke software<br> solutions across a range of industries.</p>
+            <a class="banner-button-bs" href="#">Find out more <i class="fa-solid fa-arrow-right"></i></a></div>
+    </div>
+    <div class="banner-slide">
+        <img src="images/banner/it-support.png" alt="Image 3">
+        <div class="banner-text"><h1>IT Support</h1>
+            <p>Fast and cost-effective IT support<br> services for your business.</p>
+            <a class="banner-button-it" href="#">Find out more <i class="fa-solid fa-arrow-right"></i></a></div>
+    </div>
+    <div class="banner-slide">
+        <img src="images/banner/digital-marketing.png" alt="Image 1">
+        <div class="banner-text"><h1>Digital Marketing</h1>
+            <p>Generating your new business through<br> results-driven marketing activities.</p>
+            <a class="banner-button-dm" href="#">Find out more <i class="fa-solid fa-arrow-right"></i></a></div>
+    </div>
+    <div class="banner-slide">
+        <img src="images/banner/telecoms-services.png" alt="Image 2">
+        <div class="banner-text"><h1>Telecoms Services</h1>
+            <p>A new approach to connectivity, see<br> how we can help your business.</p>
+            <a class="banner-button-tc" href="#">Find out more <i class="fa-solid fa-arrow-right"></i></a></div>
+    </div>
+    <div class="banner-slide">
+        <img src="images/banner/web-design.jpeg" alt="Image 3">
+        <div class="banner-text"><h1>Web Design</h1>
+            <p>For businesses looking to make a strong <br> and effective first impression.</p>
+            <a class="banner-button-wd" href="#">Find out more <i class="fa-solid fa-arrow-right"></i></a></div>
+    </div>
+    <div class="banner-slide">
+        <img src="images/banner/cyber-security.png" alt="Image 3">
+        <div class="banner-text"><h1>Cyber Security</h1>
+            <p>Keeping businesses and their customers<br> sensitive information protected.</p>
+            <a class="banner-button-cs" href="#">Find out more <i class="fa-solid fa-arrow-right"></i></a></div>
+    </div>
 </div>
-</section>
 <!--SERVICES-->
 
 <div class="container padfifty">
@@ -523,5 +713,25 @@
     </div>
     </div>
     </footer>
+<!--COOKIE-->
+<div class="overlay-dark"></div>
+<button class="cookie-consent">Manage Consent</button>
+<div class="container-cookie">
+    <div class="cookie-content">
+        <h1>Cookies Policy</h1>
+        <p>Our website uses cookies. This helps us provide you with a good experience on our website. 
+        To see what cookies we use and what they do, and to opt-in on non-essential cookies click "change settings". 
+        For a detailed explanation, click on <a href="#">"Privacy Policy"</a> otherwise click "Accept Cookies" to enter.</p>
+    <div class="container-cookie-button">
+        <button id="change-settings-cookie">Change Settings</button>
+        <button id="accept-cookies-cookie">Accept Cookies</button>
+    </div>
+    </div>
+</div>
+</div>
+    <script src="javascript/slick-banner.js"></script>
+    <script src="javascript/hamburger-menu.js"></script>
+    <script src="javascript/sticky-header.js"></script>
+    <script src="javascript/cookie-popup.js"></script>
 </body>
 </html>

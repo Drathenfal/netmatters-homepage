@@ -1,0 +1,19 @@
+//hamburger
+
+.hamburger {
+    display: block;
+background-color: $dark-text;
+padding: 10px 15px;
+border-radius: 3px;
+margin-left: 20px;
+    .bar {
+        width: 25px;
+        height: 3px;
+        background-color: #fff;
+        margin: 6px auto;
+    }
+    &:hover {
+        cursor: pointer;
+        background-color: $dark-background;
+    }
+}
