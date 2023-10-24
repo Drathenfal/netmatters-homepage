@@ -1,37 +1,38 @@
 // sticky header
 
+
 let lastScrollTop = 0;
 const header = document.querySelector('.header');
-const placeholder = document.createElement('div');
-placeholder.classList.add('placeholder');
-document.body.insertBefore(placeholder, header.nextSibling); // Insert the placeholder after the header
+let placeholder = document.createElement('div');
 
-const handleScroll = () => {
+// Set the initial height and display style for the placeholder
+placeholder.style.height = header.offsetHeight + 'px';
+placeholder.style.display = 'none';
+
+// Insert the placeholder before the header
+header.parentNode.insertBefore(placeholder, header);
+
+window.addEventListener('scroll', function() {
     let scrollTop = window.scrollY || document.documentElement.scrollTop;
-    const headerHeight = header.offsetHeight;
 
     if (scrollTop > 212) {
         if (scrollTop > lastScrollTop) {
             // Scrolling down
             header.style.position = '';
-            header.classList.remove('slide-down'); // Remove the slide-down class
+            header.classList.remove('slide-down');
             placeholder.style.display = 'none';
         } else {
             // Scrolling up
             header.style.position = 'fixed';
-            header.classList.add('slide-down'); // Add the slide-down class to trigger the animation
+            header.classList.add('slide-down');
             placeholder.style.display = 'block';
-            placeholder.style.height = `${headerHeight}px`;
         }
     } else {
         header.style.position = '';
-        header.classList.remove('slide-down'); // Remove the slide-down class
+        header.classList.remove('slide-down');
         placeholder.style.display = 'none';
     }
 
-    lastScrollTop = scrollTop; // Update lastScrollTop with the current scrollTop value
-};
-
-window.addEventListener('scroll', handleScroll);
-window.addEventListener('resize', handleScroll); // Handle resize events as well
+    lastScrollTop = scrollTop;
+});
 
