@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", function() {
     const overlay = document.querySelector('.overlay-dark');
     const containerCookie = document.querySelector('.container-cookie');
     const manageConsentButton = document.querySelector('.cookie-consent');
-
     const acceptCookiesButton = document.getElementById('accept-cookies-cookie');
     const changeSettingsButton = document.getElementById('change-settings-cookie');
 
