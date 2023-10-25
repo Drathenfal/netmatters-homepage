@@ -2891,9 +2891,12 @@ h4 {
   z-index: 150;
 }
 
+.dark-overlay-menu:hover {
+  cursor: pointer;
+}
+
 .dark-overlay-menu.active {
   display: block;
-  cursor: pointer;
 }
 
 .hamburger {
