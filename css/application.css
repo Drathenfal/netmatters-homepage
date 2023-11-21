@@ -1323,7 +1323,6 @@ label {
   width: 100%;
   /* Adjust the width as needed */
   margin: auto;
-  position: relative;
 }
 
 .clients-carousel .slick-slide {
@@ -1340,29 +1339,6 @@ label {
 
 .clients-carousel .slick-slide img:hover {
   filter: grayscale(0);
-}
-
-.black-swan:hover .popup-container {
-  display: block;
-}
-
-.popup-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: none;
-  background-color: rgba(255, 255, 255, 0.9);
-  padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  max-width: 400px;
-}
-
-.popup-content {
-  display: none;
-}
-
-.black-swan:hover .popup-content {
-  display: block;
 }
 
 h2 {

@@ -45,11 +45,13 @@
             line-height: 2.5rem;
     } 
     }
+    
     .banner-button-hp {
         @include banner-button($web-design,$web-designdark)
     }
     .banner-button-bs {
         @include banner-button($bespoke,$bespokedark)
+        
     }
     .banner-button-it {
         @include banner-button($it-support,$it-supportdark)
