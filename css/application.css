@@ -1774,11 +1774,30 @@ h2 {
   text-decoration: underline;
 }
 
-.partners img {
+.partners-carousel {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  align-items: center;
+  padding: 50px 0;
+  width: 100%;
+  /* Adjust the width as needed */
+  margin: auto;
+}
+
+.partners-carousel .slick-slide {
+  margin-right: 50px;
+}
+
+.partners-carousel .slick-slide img {
+  width: 100%;
+  /* Ensure images fill the slide container */
+  width: auto;
+  height: auto;
   filter: grayscale(1);
 }
 
-.partners img:hover {
+.partners-carousel .slick-slide img:hover {
   filter: grayscale(0);
 }
 
